@@ -1,0 +1,11 @@
+/*
+Theme Name: Machine Gun Theme
+Author: Matt MacNeil
+Description: Converting Machine Gun Studio's site from static to WP-driven.
+Version: 0.0.1
+Tags: music, recording studios
+*/
+
+h1{
+	color: red;
+}

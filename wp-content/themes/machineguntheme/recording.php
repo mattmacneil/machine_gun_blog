@@ -1,7 +1,7 @@
 <?php
 /*
  * Template Name: Recording
- * Description: Page template without sidebar
+ * Description: Recording page.
  */
 
 get_header(); ?>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 
   	<title>
-  		TITLE
+  		<?php echo get_bloginfo( 'name' ); ?>
   	</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon32.png">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">

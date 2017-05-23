@@ -6,8 +6,8 @@
   	<title>
   		<?php echo get_bloginfo( 'name' ); ?>
   	</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon32.png">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_bloginfo('template_directory'); ?>/assets/images/favicon32.png">
+    <link rel="icon" href="<?php echo get_bloginfo('template_directory'); ?>/assets/images/favicon.png" type="image/x-icon">
 
     <meta name="author" content="matt@mattmacneil.com">
     <meta name="description" content="  DESCRIPTION  ">

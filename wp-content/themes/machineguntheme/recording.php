@@ -9,10 +9,10 @@ get_header(); ?>
 
 <?php 
  
-	$my_book_title = get_post_meta( get_the_ID(), 'headliner', true);
+	$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
  
-	if( ! empty( $my_book_title ) ) {
-		echo '<h3>The Headline: ' . $my_book_title . '<h3>';
+	if( ! empty( $pageheadline ) ) {
+		echo '<h3>The Headline: ' . $pageheadline . '</h3>';
 	}
  
 ?>

@@ -241,7 +241,7 @@ body {
   height: 100%;
   min-width: 100%;
   min-height: 100%;
-  background-color: white;
+  background-color: #f3ffe2;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
   color: black;
@@ -360,10 +360,10 @@ input, select {
 
 nav {
   z-index: 9999;
-  padding: 2em 5% 0 5%; }
+  padding: 2em 10% 0 10%; }
 
 .nav-logo {
-  width: 10%;
+  width: 15%;
   float: left;
   height: 3em;
   background-position: center left;
@@ -385,7 +385,15 @@ nav {
   padding-right: 1em; }
   .machine-gun-menu li a {
     text-decoration: none;
-    color: white; }
+    color: #f3ffe2; }
+    .machine-gun-menu li a:hover {
+      color: orange;
+      -khtml-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s; }
 .machine-gun-menu li:first-of-type {
   padding-left: 2em; }
 .machine-gun-menu li:last-of-type {
@@ -393,7 +401,7 @@ nav {
 
 .nav-contact {
   float: right;
-  width: 10%;
+  width: 15%;
   height: 3em;
   display: table; }
 
@@ -406,16 +414,34 @@ nav {
   .nav-contact-align a {
     width: 100%;
     color: orange;
-    outline: 1px solid orange;
+    border: 1px solid orange;
     display: inline-block;
     text-decoration: none;
     padding: .25em 0;
     transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0.2s;
-    box-shadow: 0 2px 5px 0 grey; }
+    box-shadow: 0 2px 5px 0 grey;
+    position: relative;
+    padding-right: 1em;
+    border-radius: .25em; }
+    .nav-contact-align a:after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 1.5em;
+      background-color: orange;
+      background-size: 1em auto;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-image: url("assets/images/nav-contact-align.png");
+      border-top-right-radius: .2em;
+      border-bottom-right-radius: .2em;
+      border: 1px solid orange; }
     .nav-contact-align a:hover {
       background-color: orange;
-      color: white;
+      color: #f3ffe2;
       -khtml-transition: all 0.3s;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;

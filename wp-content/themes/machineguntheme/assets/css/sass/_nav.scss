@@ -15,11 +15,11 @@
 
 nav {
 	z-index: 9999;
-	padding: $nav-top-gap 5% 0 5%;
+	padding: $nav-top-gap 10% 0 10%;
 }
 
 	.nav-logo {
-		width: 10%;
+		width: 15%;
 		float: left;
 		height: $nav-height;
 		background-position: center left;
@@ -50,6 +50,11 @@ nav {
 			a {
 				text-decoration: none;
 				color: $white;
+
+				&:hover {
+					color: $orange;
+					@include fader;
+				}
 			}
 		}
 
@@ -64,7 +69,7 @@ nav {
 
 	.nav-contact {
 		float: right;
-		width: 10%;
+		width: 15%;
 		height: $nav-height;
 		display: table;
 	}
@@ -76,14 +81,36 @@ nav {
 			vertical-align: middle;
 			text-align: center;
 
+			$contact-snipe-pad: 1.5em;
+
 			a {
 				width: 100%;
 				color: $orange;
-				outline: 1px solid $orange;
+				border: 1px solid $orange;
 				display: inline-block;
 				text-decoration: none;
 				padding: .25em 0;
 				@include divshadow;
+				position: relative;
+				padding-right: $contact-snipe-pad - .5em;
+				border-radius: .25em;
+
+				&:after{
+					content: "";
+					position: absolute;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					width: $contact-snipe-pad;
+					background-color: orange;
+					background-size: 1em auto;
+					background-position: center center;
+					background-repeat: no-repeat;
+					background-image: url('assets/images/nav-contact-align.png');
+					border-top-right-radius: .2em;
+					border-bottom-right-radius: .2em;
+					border: 1px solid $orange;
+				}
 
 				&:hover {
 					background-color: $orange;

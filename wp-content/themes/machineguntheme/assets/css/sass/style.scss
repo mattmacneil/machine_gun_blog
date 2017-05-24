@@ -6,7 +6,11 @@ Version: 0.0.1
 Tags: music, recording studios
 */
 
-h1{
-	color: lightblue;
-	background-color: orange;
-}
+@import "_normalize";
+@import "_assets";
+@import "_vars";
+@import "_mixins";
+@import "_nav";
+@import "_development";
+@import "_mobile";
+//@import "../font-awesome-4.7.0/scss/font-awesome"; 

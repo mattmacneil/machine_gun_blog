@@ -5,6 +5,7 @@
  */
 
 get_header(); ?>
+<div class="nav-blocker"></div><!-- nav blocker -->
 
 
 <?php 

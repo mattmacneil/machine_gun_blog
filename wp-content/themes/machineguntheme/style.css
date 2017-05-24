@@ -360,8 +360,7 @@ input, select {
 
 nav {
   z-index: 9999;
-  padding: 2em 5% 0 5%;
-  background-color: lightblue; }
+  padding: 2em 5% 0 5%; }
 
 .nav-logo {
   width: 10%;
@@ -385,15 +384,53 @@ nav {
   height: 100%;
   padding-right: 1em; }
   .machine-gun-menu li a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: white; }
 .machine-gun-menu li:first-of-type {
   padding-left: 2em; }
 .machine-gun-menu li:last-of-type {
   padding-right: 0; }
 
+.nav-contact {
+  float: right;
+  width: 10%;
+  height: 3em;
+  display: table; }
+
+.nav-contact-align {
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+  .nav-contact-align a {
+    width: 100%;
+    color: orange;
+    outline: 1px solid orange;
+    display: inline-block;
+    text-decoration: none;
+    padding: .25em 0;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 grey; }
+    .nav-contact-align a:hover {
+      background-color: orange;
+      color: white;
+      -khtml-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s; }
+
 .content-wrapper {
   width: 100%;
   max-width: 1800px;
   margin: 0 auto; }
+
+.hero {
+  width: 100%;
+  height: 90%;
+  background-color: blue; }
 
 /*# sourceMappingURL=style.css.map */

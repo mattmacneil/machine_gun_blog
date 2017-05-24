@@ -23,6 +23,16 @@
 			    'container_class' => 'machine-gun-menu' ) ); 
 			?>
 
+			<div class="nav-contact">
+
+				<div class="nav-contact-align">
+
+					<a href="contact">contact</a>
+
+				</div><!-- nav contact align -->
+
+			</div><!-- nav contact -->
+
 			<div class="clearfix"></div>
 
 		</nav><!-- nav -->

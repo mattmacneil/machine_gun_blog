@@ -1,7 +1,16 @@
 <?php get_header(); ?>
 
-this is the front page.
+	<div class="hero">
+	<div class="nav-blocker"></div><!-- nav blocker -->
 
-<?php wp_list_pages( '&title_li=' ); ?>
+		<div class="content-wrapper">
 
-<?php get_footer(); ?>
+			hi
+
+		</div><!-- content wrapper -->
+
+	</div><!-- hero -->
+
+	<?php wp_list_pages( '&title_li=' ); ?>
+
+	<?php get_footer(); ?>

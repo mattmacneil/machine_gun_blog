@@ -351,6 +351,13 @@ input, select {
 nav {
   background-color: red; }
 
+.machine-gun-menu li {
+  list-style: none;
+  background-color: lightgreen;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100px; }
+
 #hi {
   color: red; }
 

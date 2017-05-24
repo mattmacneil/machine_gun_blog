@@ -18,6 +18,19 @@ get_header(); ?>
 ?>
 
 
-<div style="background-color: orange;">HLLO</div>
+<div style="background-color: orange; margin: 100px 0;">HELLO</div>
+
+<?php
+wp_nav_menu( array( 
+    'theme_location' 	=> 'mg-nav',
+    'items_wrap' 			=> '%3$s',
+    'menu_class' 			=> '',
+    'menu_id'         => FALSE,
+    'item_spacing' 		=> discard,
+    'depth'           => 1,
+    'container_class' => 'machine-gun-menu' ) ); 
+?>
+
+<div style="background-color: orange; margin: 100px 0;">HELLO</div>
 
 <?php get_footer(); ?>

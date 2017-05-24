@@ -2,6 +2,7 @@
 .sass-cache/*
 *.css.map
 css/sass/maps
+*.scssc
 
 node_modules/
 

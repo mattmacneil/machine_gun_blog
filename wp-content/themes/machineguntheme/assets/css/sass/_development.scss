@@ -57,6 +57,15 @@
 					font-weight: bold;
 					margin-bottom: 1em;
 				}
+
+				p {
+					line-height: 1.5;
+					margin-bottom: .5em;
+				}
+
+				p:last-of-type {
+					margin-bottom: 0;
+				}
 			}
 
 	.hero-content-transparent,

@@ -22,8 +22,8 @@
 
 							<h1>Machine Gun Studios: The Name Only <span>Implies</span> That I'm Armed&hellip;</h1>
 
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							<p>Machine Gun Studios is an intimate and boutique studio to lay down all your recording dreams with a stunning gear list, a singular ear to facilitate the process, and crazy amounts of atmospheric charm.
+							</p>
 
 						</div><!-- hero content inner pad -->
 

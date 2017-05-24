@@ -248,7 +248,7 @@ body {
   font-size: 1.1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: none; }
+  background-image: url("assets/images/stripe.png"); }
   @media (max-width: 640px) {
     body {
       font-size: 1.05em; } }
@@ -499,6 +499,11 @@ nav {
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 1em; }
+  .hero-content-inner-pad p {
+    line-height: 1.5;
+    margin-bottom: .5em; }
+  .hero-content-inner-pad p:last-of-type {
+    margin-bottom: 0; }
 
 .hero-content-transparent,
 .hero-transparent {

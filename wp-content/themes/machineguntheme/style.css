@@ -352,14 +352,14 @@ input, select {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 0; }
+  top: 0;
+  z-index: 9999; }
 
 .nav-blocker {
   width: 100%;
   height: 5em; }
 
 nav {
-  z-index: 9999;
   padding: 2em 10% 0 10%; }
 
 .nav-logo {
@@ -457,6 +457,21 @@ nav {
 .hero {
   width: 100%;
   height: 90%;
+  height: calc(100% - 2em);
   background-color: blue; }
+
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.hero-content-bg {
+  width: 64%;
+  min-height: 50%;
+  min-height: calc(50% + 2em);
+  position: absolute;
+  left: 0;
+  bottom: -2em;
+  background-color: pink; }
 
 /*# sourceMappingURL=style.css.map */

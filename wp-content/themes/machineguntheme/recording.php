@@ -20,7 +20,7 @@ get_header(); ?>
 
 <div style="background-color: orange; margin: 100px 0;">HELLO</div>
 
-	<?php get_template_part( 'template-parts/nav'); ?>
+	
 
 <div style="background-color: orange; margin: 100px 0;">HELLO</div>
 

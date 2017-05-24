@@ -1,7 +1,7 @@
 <?php
 /*
- * Template Name: Recording
- * Description: Recording page.
+ * Template Name: RecordingMixing
+ * Description: Recording & Mixing pages.
  */
 
 get_header(); ?>

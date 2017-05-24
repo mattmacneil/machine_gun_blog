@@ -348,6 +348,9 @@ input, select {
 @font-face {
   font-family: 'fontname';
   src: url("../../fonts/font.ttf"); }
+nav {
+  background-color: red; }
+
 #hi {
   color: red; }
 

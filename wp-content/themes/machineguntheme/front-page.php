@@ -6,17 +6,32 @@
 
 			<div class="nav-blocker"></div><!-- nav blocker -->
 
-			<div class="content-wrapper">
-
-				hi
-
-			</div><!-- content wrapper -->
-
+			<!-- for clear background, add class hero-transparent -->
 			<div class="hero-content-bg">
 
-				hi
-
 			</div><!--hero content bg -->
+
+			<div class="hero-content">
+			
+				<div class="content-wrapper">
+
+					<div class="hero-content-inner">
+
+						<!-- for clear background, add class hero-content-transparent -->
+						<div class="hero-content-inner-pad">
+
+							<h1>Machine Gun Studios: The Name Only <span>Implies</span> That I'm Armed&hellip;</h1>
+
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+
+						</div><!-- hero content inner pad -->
+
+					</div><!-- hero content inner -->
+
+				</div><!-- content wrapper -->
+
+			</div><!-- hero content -->
 
 		</div><!-- hero overlay -->
 	

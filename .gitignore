@@ -3,6 +3,7 @@
 *.css.map
 css/sass/maps
 *.scssc
+wp-content/themes/machineguntheme/.sass-cache/*
 
 node_modules/
 

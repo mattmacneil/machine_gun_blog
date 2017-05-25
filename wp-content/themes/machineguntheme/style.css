@@ -523,11 +523,12 @@ nav {
   bottom: -2em;
   background: linear-gradient(to right, #f3ffe2 64%, transparent 36%); }
 
-.hero-content-transparent,
-.hero-transparent {
-  background-color: transparent;
+.hero-transparent .hero-container {
   background: transparent;
-  color: #f3ffe2; }
+  color: #f3ffe2;
+  text-shadow: black 1px 0 15px; }
+.hero-transparent .hero-underbar {
+  background: transparent; }
 
 @media screen and (max-width: 1125px) {
   .hero-content-bg {

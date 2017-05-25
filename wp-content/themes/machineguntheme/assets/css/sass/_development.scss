@@ -72,9 +72,14 @@
 				background: linear-gradient(to right, $white 64%, transparent 36%); 
 			}
 
-	.hero-content-transparent,
 	.hero-transparent {
-		background-color: transparent;
-		background: transparent;
-		color: $white;
+		.hero-container {
+			background: transparent;
+			color: $white;
+			@include texthaze($black);
+		}
+
+		.hero-underbar {
+			background: transparent;
+		}
 	}

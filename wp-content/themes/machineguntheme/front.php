@@ -8,15 +8,15 @@ get_header(); ?>
 
 	<div class="hero">
 
-		<div class="hero-overlay">
+		<div class="hero-overlay hero-transparent">
 
 			<div class="nav-blocker"></div><!-- nav blocker -->
 
-			<div class="hero-container hero-content-transparent">
+			<div class="hero-container">
 
 				<div class="content-wrapper sidepad hero-content-pad">
 
-					<div class="hero-content-innerpad hero-content-transparent">
+					<div class="hero-content-innerpad">
 
 						<?php 
 							$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
@@ -35,7 +35,7 @@ get_header(); ?>
 
 			</div><!-- hero background -->
 
-			<div class="hero-underbar hero-content-transparent">
+			<div class="hero-underbar">
 			</div><!-- hero underbar -->
 
 		</div><!-- hero overlay -->

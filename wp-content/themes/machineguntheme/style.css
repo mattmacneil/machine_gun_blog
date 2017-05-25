@@ -369,7 +369,6 @@ nav {
 .nav-logo {
   width: 12%;
   float: left;
-  background-color: orange;
   height: 3em;
   background-position: center left;
   background-size: auto 3em;
@@ -379,7 +378,8 @@ nav {
     display: none; }
   @media screen and (max-width: 900px) {
     .nav-logo {
-      background-size: auto 90%; } }
+      background-size: auto 90%;
+      width: 15%; } }
 
 .machine-gun-menu .menu-aligner {
   height: 3em;
@@ -409,9 +409,12 @@ nav {
 
 .nav-contact {
   float: right;
-  width: 15%;
+  width: 12%;
   height: 3em;
   display: table; }
+  @media screen and (max-width: 900px) {
+    .nav-contact {
+      width: 15%; } }
 
 .nav-contact-align {
   width: 100%;
@@ -466,9 +469,9 @@ nav {
   width: 100%;
   height: 90%;
   height: calc(100% - 2em);
-  min-height: 600px;
-  min-height: calc(600px + 2em);
-  max-height: 1200px;
+  min-height: 700px;
+  min-height: calc(700px + 2em);
+  max-height: 850px;
   background-color: blue; }
 
 .hero-overlay {
@@ -481,8 +484,8 @@ nav {
 
 .hero-content-bg {
   width: 64%;
-  min-height: 50%;
-  min-height: calc(50% + 2em);
+  min-height: 55%;
+  min-height: calc(55% + 2em);
   position: absolute;
   left: 0;
   bottom: -2em;
@@ -493,15 +496,15 @@ nav {
 
 .hero-content {
   width: 100%;
-  min-height: 50%;
-  min-height: calc(50% + 2em);
+  min-height: 55%;
+  min-height: calc(55% + 2em);
   position: absolute;
   left: 0;
   bottom: -2em; }
 
 .hero-content-inner {
   width: 100%;
-  padding: 3em 36% 0 10%; }
+  padding: 2em 36% 0 10%; }
 
 .hero-content-inner-pad {
   width: 100%;
@@ -524,5 +527,19 @@ nav {
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
   box-shadow: 0 2px 5px 0 transparent; }
+
+@media screen and (max-width: 1125px) {
+  .hero-content-bg {
+    width: 95%; }
+
+  .hero-content-inner {
+    width: 95%;
+    padding-right: 0; } }
+@media screen and (max-width: 900px) {
+  .hero-content-inner {
+    padding-left: 5%; }
+
+  .hero-content-inner-pad {
+    padding-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

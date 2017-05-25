@@ -21,7 +21,6 @@ nav {
 	.nav-logo {
 		width: 12%;
 		float: left;
-		background-color: orange;
 		height: $nav-height;
 		background-position: center left;
 		background-size: auto $nav-height;
@@ -34,6 +33,7 @@ nav {
 
 		@media screen and (max-width: 900px){
 			background-size: auto 90%;
+			width: 15%;
 		}
 
 		@media screen and (max-width: 768px){
@@ -78,9 +78,13 @@ nav {
 
 	.nav-contact {
 		float: right;
-		width: 15%;
+		width: 12%;
 		height: $nav-height;
 		display: table;
+
+		@media screen and (max-width: 900px){
+			width: 15%;
+		}		
 	}
 
 		.nav-contact-align {

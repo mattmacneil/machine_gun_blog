@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php
+/*
+ * Template Name: FrontPage
+ * Description: Front Page.
+ */
+
+get_header(); ?>
 
 	<div class="hero">
 
@@ -7,7 +13,7 @@
 			<div class="nav-blocker"></div><!-- nav blocker -->
 
 			<!-- for clear background, add class hero-transparent -->
-			<div class="hero-content-bg hero-content-transparent">
+			<div class="hero-content-bg hero-transparent">
 
 			</div><!--hero content bg -->
 
@@ -20,9 +26,15 @@
 						<!-- for clear background, add class hero-content-transparent -->
 						<div class="hero-content-inner-pad hero-content-transparent">
 
-							<h1>Machine Gun Studios: The Name Only <span>Implies</span> That I'm Armed&hellip;</h1>
+							<?php 
+								$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
+								if( ! empty( $pageheadline ) ) {
+									echo '<h1>' . $pageheadline . '</h1>';
+								}
+							?>
 
-							<p>Machine Gun Studios is an intimate and boutique studio to lay down all your recording dreams with a stunning gear list, a singular ear to facilitate the process, and crazy amounts of atmospheric charm.
+							<p>
+								Machine Gun Studios is an intimate and boutique studio to lay down all your recording dreams with a stunning gear list, a singular ear to facilitate the process, and crazy amounts of atmospheric charm.
 							</p>
 
 						</div><!-- hero content inner pad -->

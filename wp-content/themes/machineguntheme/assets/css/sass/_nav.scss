@@ -15,12 +15,13 @@
 }
 
 nav {
-	padding: $nav-top-gap 10% 0 10%;
+	padding: $nav-top-gap 5% 0 5%;
 }
 
 	.nav-logo {
-		width: 15%;
+		width: 12%;
 		float: left;
+		background-color: orange;
 		height: $nav-height;
 		background-position: center left;
 		background-size: auto $nav-height;
@@ -29,6 +30,14 @@ nav {
 
 		em{
 			display: none;
+		}
+
+		@media screen and (max-width: 900px){
+			background-size: auto 90%;
+		}
+
+		@media screen and (max-width: 768px){
+			// hamburg sandwich
 		}
 	}
 

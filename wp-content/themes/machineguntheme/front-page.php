@@ -7,7 +7,7 @@
 			<div class="nav-blocker"></div><!-- nav blocker -->
 
 			<!-- for clear background, add class hero-transparent -->
-			<div class="hero-content-bg">
+			<div class="hero-content-bg hero-content-transparent">
 
 			</div><!--hero content bg -->
 
@@ -18,7 +18,7 @@
 					<div class="hero-content-inner">
 
 						<!-- for clear background, add class hero-content-transparent -->
-						<div class="hero-content-inner-pad">
+						<div class="hero-content-inner-pad hero-content-transparent">
 
 							<h1>Machine Gun Studios: The Name Only <span>Implies</span> That I'm Armed&hellip;</h1>
 

@@ -339,6 +339,10 @@ input, select {
 .noline {
   text-decoration: none; }
 
+.pslug {
+  width: 100%;
+  background-color: red; }
+
 @font-face {
   font-family: 'fontname';
   src: url("../../fonts/font.ttf"); }
@@ -360,11 +364,12 @@ input, select {
   height: 5em; }
 
 nav {
-  padding: 2em 10% 0 10%; }
+  padding: 2em 5% 0 5%; }
 
 .nav-logo {
-  width: 15%;
+  width: 12%;
   float: left;
+  background-color: orange;
   height: 3em;
   background-position: center left;
   background-size: auto 3em;
@@ -372,6 +377,9 @@ nav {
   border-right: 1px solid grey; }
   .nav-logo em {
     display: none; }
+  @media screen and (max-width: 900px) {
+    .nav-logo {
+      background-size: auto 90%; } }
 
 .machine-gun-menu .menu-aligner {
   height: 3em;
@@ -497,6 +505,7 @@ nav {
 
 .hero-content-inner-pad {
   width: 100%;
+  padding-left: 12%;
   padding-right: 2em; }
   .hero-content-inner-pad h1 {
     font-size: 2em;
@@ -511,6 +520,9 @@ nav {
 .hero-content-transparent,
 .hero-transparent {
   background-color: transparent;
-  color: #f3ffe2 !important; }
+  color: #f3ffe2 !important;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 transparent; }
 
 /*# sourceMappingURL=style.css.map */

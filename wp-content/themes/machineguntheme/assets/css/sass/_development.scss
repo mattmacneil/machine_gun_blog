@@ -7,14 +7,19 @@
 	margin: 0 auto;
 }
 
+	.sidepad {
+		padding: 0 5%;
+	}
+
 .hero {
 	width: 100%;
-	height: 90%;
-	height: calc(100% - 2em);
-	min-height: 700px;
-	min-height: calc(700px + 2em); 
-	max-height: 850px;
+	//height: 90%;
+	//height: calc(100% - 2em);
+	//min-height: 700px;
+	//min-height: calc(700px + 2em); 
+	//max-height: 850px;
 	background-color: $blue;
+	@include divshadow;
 }
 
 	.hero-overlay {
@@ -25,6 +30,54 @@
 		background-size: cover;
 		background-position: center center;
 	}
+
+		.hero-container {
+			width: 100%;
+			overflow: visible;
+			background-color: orange;
+			margin-top: 10em;
+			background: linear-gradient(to right, $white 64%, transparent 36%); 
+			position: relative;
+
+			&:after {
+				content: "";
+				position: absolute;
+				display: inline-block;
+				left: 0;
+				right: 0;
+				bottom: -2em;
+				height: 2em;
+				background: linear-gradient(to right, $white 64%, transparent 36%); 
+			}
+		}
+
+				.hero-content-pad {
+					padding-top: 3em;
+					padding-right: 36%;
+				}
+
+				.hero-content-innerpad {
+					padding-left: 18%;
+					padding-right: 3em;
+					padding-bottom: 2em;
+
+					h1{
+						font-size: 2em;
+						font-weight: bold;
+						margin-bottom: .75em;
+						text-transform: uppercase;
+					}
+
+					p {
+						line-height: 1.5;
+						margin-bottom: .5em;
+						text-align: justify;
+					}
+
+					p:last-of-type {
+						margin-bottom: 0em;
+					}
+				}
 
 	.hero-content-bg {
 		width: 64%;

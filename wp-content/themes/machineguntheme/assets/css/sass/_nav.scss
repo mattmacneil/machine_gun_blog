@@ -42,6 +42,7 @@ nav {
 	}
 
 	.machine-gun-menu{
+		@include texthaze($black);
 
 		.menu-aligner{
 			height: $nav-height;
@@ -99,6 +100,7 @@ nav {
 			a {
 				width: 100%;
 				color: $orange;
+				background-color: rgba($black, .1);
 				border: 1px solid $orange;
 				display: inline-block;
 				text-decoration: none;
@@ -107,6 +109,7 @@ nav {
 				position: relative;
 				padding-right: $contact-snipe-pad;
 				border-radius: .25em;
+				@include texthaze($black);
 
 				&:after{
 					content: "";

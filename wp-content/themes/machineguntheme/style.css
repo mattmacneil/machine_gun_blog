@@ -244,7 +244,7 @@ body {
   background-color: #f3ffe2;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
-  color: black;
+  color: #0c1f2d;
   font-size: 1.1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -317,7 +317,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid black;
+  border-top: 1px solid #0c1f2d;
   margin: 0;
   padding: 0; }
 
@@ -325,13 +325,13 @@ input, select {
   vertical-align: middle; }
 
 ::-moz-selection {
-  background: blue; }
+  background: #225378; }
 
 ::selection {
-  background: blue; }
+  background: #225378; }
 
 ::-moz-selection {
-  background: blue; }
+  background: #225378; }
 
 .clearfix {
   clear: both; }
@@ -382,7 +382,7 @@ nav {
       width: 15%; } }
 
 .machine-gun-menu {
-  text-shadow: black 1px 0 15px; }
+  text-shadow: #0c1f2d 1px 0 15px; }
   .machine-gun-menu .menu-aligner {
     height: 3em;
     display: table;
@@ -397,7 +397,7 @@ nav {
       text-decoration: none;
       color: #f3ffe2; }
       .machine-gun-menu li a:hover {
-        color: orange;
+        color: #EB7F00;
         -khtml-transition: all 0.3s;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
@@ -426,9 +426,9 @@ nav {
   text-align: center; }
   .nav-contact-align a {
     width: 100%;
-    color: orange;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 1px solid orange;
+    color: #EB7F00;
+    background-color: rgba(12, 31, 45, 0.1);
+    border: 1px solid #EB7F00;
     display: inline-block;
     text-decoration: none;
     padding: .25em 0;
@@ -438,7 +438,7 @@ nav {
     position: relative;
     padding-right: 1.5em;
     border-radius: .25em;
-    text-shadow: black 1px 0 15px; }
+    text-shadow: #0c1f2d 1px 0 15px; }
     .nav-contact-align a:after {
       content: "";
       position: absolute;
@@ -453,9 +453,9 @@ nav {
       background-image: url("assets/images/nav-contact-align.png");
       border-top-right-radius: .2em;
       border-bottom-right-radius: .2em;
-      border: 1px solid orange; }
+      border: 1px solid #EB7F00; }
     .nav-contact-align a:hover {
-      background-color: orange;
+      background-color: #EB7F00;
       color: #f3ffe2;
       -khtml-transition: all 0.3s;
       -webkit-transition: all 0.3s;
@@ -474,7 +474,7 @@ nav {
 
 .hero {
   width: 100%;
-  background-color: blue;
+  background-color: #225378;
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
   box-shadow: 0 2px 5px 0 grey; }
@@ -484,25 +484,31 @@ nav {
   height: 100%;
   position: relative;
   background-image: url("assets/images/hero-overlay.png");
+  background-color: rgba(34, 83, 120, 0.65);
   background-size: cover;
   background-position: center center; }
 
 .hero-container {
   width: 100%;
   overflow: visible;
-  background-color: orange;
   margin-top: 10em;
   background: linear-gradient(to right, #f3ffe2 64%, transparent 36%);
   position: relative; }
 
 .hero-content-pad {
   padding-top: 3em;
-  padding-right: 36%; }
+  padding-right: 36%;
+  position: relative; }
+  @media screen and (min-width: 2500px) {
+    .hero-content-pad {
+      padding-right: 10%; } }
 
 .hero-content-innerpad {
   padding-left: 18%;
   padding-right: 3em;
-  padding-bottom: 3em; }
+  padding-bottom: 3em;
+  width: 100%;
+  position: relative; }
   .hero-content-innerpad h1 {
     font-size: 2em;
     font-weight: bold;
@@ -515,6 +521,15 @@ nav {
   .hero-content-innerpad p:last-of-type {
     margin-bottom: 0em; }
 
+.hero-content-bg {
+  position: absolute;
+  left: -8em;
+  top: -4em;
+  background-image: url("assets/images/hero-content-bg.png");
+  background-size: contain;
+  width: 14em;
+  height: 14em; }
+
 .hero-underbar {
   width: 100%;
   height: 2em;
@@ -526,22 +541,8 @@ nav {
 .hero-transparent .hero-container {
   background: transparent;
   color: #f3ffe2;
-  text-shadow: black 1px 0 15px; }
+  text-shadow: #0c1f2d 1px 0 15px; }
 .hero-transparent .hero-underbar {
   background: transparent; }
-
-@media screen and (max-width: 1125px) {
-  .hero-content-bg {
-    width: 95%; }
-
-  .hero-content-inner {
-    width: 95%;
-    padding-right: 0; } }
-@media screen and (max-width: 900px) {
-  .hero-content-inner {
-    padding-left: 5%; }
-
-  .hero-content-inner-pad {
-    padding-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

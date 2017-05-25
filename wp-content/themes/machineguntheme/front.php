@@ -16,7 +16,14 @@ get_header(); ?>
 
 				<div class="content-wrapper sidepad hero-content-pad">
 
-					<div class="hero-content-innerpad">
+					<div class="hero-content-innerpad" style="z-index: 8888;">
+
+						<div class="hero-content-bg" style="z-index: 1;">
+
+							hi
+
+						</div><!-- hero content bg -->
+
 
 						<?php 
 							$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
@@ -26,7 +33,7 @@ get_header(); ?>
 						?>
 
 						<p>
-								Machine Gun Studios is an intimate and boutique studio to lay down all your recording dreams with a stunning gear list, a singular ear to facilitate the process, and crazy amounts of atmospheric charm.
+							Machine Gun Studios is an intimate and boutique studio to lay down all your recording dreams with a stunning gear list, a singular ear to facilitate the process, and crazy amounts of atmospheric charm.
 						</p>
 
 					</div><!-- hero content rightpad -->

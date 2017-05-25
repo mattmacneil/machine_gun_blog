@@ -151,13 +151,18 @@ input, select{
 }
 
 @font-face{ 
-  font-family: 'fontname';
-  src: url('../../fonts/font.ttf');
+  font-family: 'bodyfont';
+  src: url('assets/fonts/RobotoMono-Regular.ttf');
 }
 
 @font-face{ 
-  font-family: 'fontname';
-  src: url('../../fonts/font.ttf');
+  font-family: 'headlinefont';
+  src: url('assets/fonts/Roboto-Black.ttf');
+}
+
+@font-face{ 
+  font-family: 'headlinefont-it';
+  src: url('assets/fonts/Roboto-BlackItalic.ttf');
 }
 
 @font-face{ 

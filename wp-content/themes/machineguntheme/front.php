@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-	<div class="hero">
+	<div class="hero hero-frontpage" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/hero-frontpage.jpg');">
 
 		<div class="hero-overlay hero-transparent">
 
@@ -16,12 +16,9 @@ get_header(); ?>
 
 				<div class="content-wrapper sidepad hero-content-pad">
 
-					<div class="hero-content-innerpad" style="z-index: 8888;">
+					<div class="hero-content-innerpad">
 
-						<div class="hero-content-bg" style="z-index: 1;">
-
-							hi
-
+						<div class="hero-content-bg">
 						</div><!-- hero content bg -->
 
 

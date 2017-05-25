@@ -92,7 +92,7 @@ nav {
 				padding: .25em 0;
 				@include divshadow;
 				position: relative;
-				padding-right: $contact-snipe-pad - .5em;
+				padding-right: $contact-snipe-pad;
 				border-radius: .25em;
 
 				&:after{

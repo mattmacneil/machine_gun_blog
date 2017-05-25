@@ -422,7 +422,7 @@ nav {
     transition-delay: 0.2s;
     box-shadow: 0 2px 5px 0 grey;
     position: relative;
-    padding-right: 1em;
+    padding-right: 1.5em;
     border-radius: .25em; }
     .nav-contact-align a:after {
       content: "";
@@ -466,7 +466,10 @@ nav {
 .hero-overlay {
   width: 100%;
   height: 100%;
-  position: relative; }
+  position: relative;
+  background-image: url("assets/images/hero-overlay.png");
+  background-size: cover;
+  background-position: center center; }
 
 .hero-content-bg {
   width: 64%;
@@ -490,7 +493,7 @@ nav {
 
 .hero-content-inner {
   width: 100%;
-  padding: 2em 36% 0 10%; }
+  padding: 3em 36% 0 10%; }
 
 .hero-content-inner-pad {
   width: 100%;

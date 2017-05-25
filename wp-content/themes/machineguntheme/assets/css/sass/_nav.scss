@@ -105,7 +105,7 @@ nav {
 				display: inline-block;
 				text-decoration: none;
 				padding: .25em 0;
-				@include divshadow;
+				@include divshadow($blue);
 				position: relative;
 				padding-right: $contact-snipe-pad;
 				border-radius: .25em;
@@ -118,7 +118,7 @@ nav {
 					top: 0;
 					bottom: 0;
 					width: $contact-snipe-pad;
-					background-color: orange;
+					background-color: $orange;
 					background-size: 1em auto;
 					background-position: center center;
 					background-repeat: no-repeat;

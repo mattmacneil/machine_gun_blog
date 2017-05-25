@@ -434,7 +434,7 @@ nav {
     padding: .25em 0;
     transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0.2s;
-    box-shadow: 0 2px 5px 0 grey;
+    box-shadow: 0 2px 5px 0 #225378;
     position: relative;
     padding-right: 1.5em;
     border-radius: .25em;
@@ -446,7 +446,7 @@ nav {
       top: 0;
       bottom: 0;
       width: 1.5em;
-      background-color: orange;
+      background-color: #EB7F00;
       background-size: 1em auto;
       background-position: center center;
       background-repeat: no-repeat;

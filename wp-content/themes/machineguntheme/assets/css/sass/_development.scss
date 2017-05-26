@@ -38,19 +38,27 @@
 
 				.hero-content-pad {
 					padding-top: 3em;
-					padding-right: 36%;
 					position: relative;
-
-					@media screen and (min-width: 2500px){
-						padding-right: 10%;
-					}
+					width: 100%;
 				}
 
+					.hero-content-snipe {
+						position: absolute;
+						left: 5%;
+						top: 3.5em;
+						z-index: 9999;
+						height: 5em;
+						width: 5em;
+						background-size: auto 100%;
+						background-repeat: no-repeat;
+						background-position: left;
+					}
+
 				.hero-content-innerpad {
-					padding-left: 18%;
+					padding-left: 12%;
 					padding-right: 3em;
 					padding-bottom: 3em;
-					width: 100%;
+					width: 65.5%;
 					position: relative;
 
 					h1{

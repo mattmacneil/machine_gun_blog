@@ -8,13 +8,17 @@ get_header(); ?>
 
 	<div class="hero hero-frontpage" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/hero-frontpage.jpg');">
 
-		<div class="hero-overlay hero-transparent">
+		<div class="hero-overlay hero-transpardent">
 
 			<div class="nav-blocker"></div><!-- nav blocker -->
 
 			<div class="hero-container">
 
 				<div class="content-wrapper sidepad hero-content-pad">
+
+					<!--
+					<div class="hero-content-snipe" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/hero-frontpdage.jpg');">
+					</div><!-- hero content snipe -->
 
 					<div class="hero-content-innerpad">
 
@@ -30,7 +34,7 @@ get_header(); ?>
 						?>
 
 						<p>
-							Machine Gun Studios is an intimate and boutique studio to lay down all your recording dreams with a stunning gear list, a singular ear to facilitate the process, and crazy amounts of atmospheric charm.
+							Machine Gun Studios is an intimate boutique studio to lay down all your recording dreams with a stunning gear list, a singular ear to facilitate the process, and crazy amounts of atmospheric charm.
 						</p>
 
 					</div><!-- hero content rightpad -->

@@ -373,10 +373,18 @@ nav {
   width: 12%;
   float: left;
   height: 3em;
+  position: relative;
   background-position: center left;
   background-size: auto 3em;
-  background-repeat: no-repeat;
-  border-right: 1px solid grey; }
+  background-repeat: no-repeat; }
+  .nav-logo:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(243, 255, 226, 0.5);
+    width: 1px; }
   .nav-logo em {
     display: none; }
   @media screen and (max-width: 900px) {
@@ -501,17 +509,25 @@ nav {
 
 .hero-content-pad {
   padding-top: 3em;
-  padding-right: 36%;
-  position: relative; }
-  @media screen and (min-width: 2500px) {
-    .hero-content-pad {
-      padding-right: 10%; } }
+  position: relative;
+  width: 100%; }
+
+.hero-content-snipe {
+  position: absolute;
+  left: 5%;
+  top: 3.5em;
+  z-index: 9999;
+  height: 5em;
+  width: 5em;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left; }
 
 .hero-content-innerpad {
-  padding-left: 18%;
+  padding-left: 12%;
   padding-right: 3em;
   padding-bottom: 3em;
-  width: 100%;
+  width: 65.5%;
   position: relative; }
   .hero-content-innerpad h1 {
     font-size: 2em;

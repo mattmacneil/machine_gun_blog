@@ -22,10 +22,20 @@ nav {
 		width: 12%;
 		float: left;
 		height: $nav-height;
+		position: relative;
 		background-position: center left;
 		background-size: auto $nav-height;
 		background-repeat: no-repeat;
-		border-right: 1px solid $grey;
+
+		&:after {
+			content: "";
+			position: absolute;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-color: rgba($white, .5);
+			width: 1px;
+		}
 
 		em{
 			display: none;

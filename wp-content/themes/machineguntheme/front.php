@@ -8,7 +8,7 @@ get_header(); ?>
 
 	<div class="hero hero-frontpage" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/hero-frontpage.jpg');">
 
-		<div class="hero-overlay hero-transpardent">
+		<div class="hero-overlay hero-transparent">
 
 			<div class="nav-blocker"></div><!-- nav blocker -->
 
@@ -22,9 +22,10 @@ get_header(); ?>
 
 					<div class="hero-content-innerpad">
 
-						<div class="hero-content-bg">
+						<!--<div class="hero-content-bg">
 						</div><!-- hero content bg -->
 
+						<img src="<?php bloginfo('template_url'); ?>/assets/images/landing-bars.gif" ?>
 
 						<?php 
 							$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
@@ -50,6 +51,10 @@ get_header(); ?>
 	
 	</div><!-- hero -->
 
-	<?php wp_list_pages( '&title_li=' ); ?>
+	<div class="doubleside">
+
+		<?php wp_list_pages( '&title_li=' ); ?>
+
+	</div><!-- doubleside -->
 
 	<?php get_footer(); ?>

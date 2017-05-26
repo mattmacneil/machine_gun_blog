@@ -16,8 +16,8 @@ get_header(); ?>
 
 				<div class="content-wrapper sidepad hero-content-pad">
 
-					<!--
-					<div class="hero-content-snipe" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/hero-frontpdage.jpg');">
+					
+					<!--<div class="hero-content-snipe" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/hero-frontpage.jpg');">
 					</div><!-- hero content snipe -->
 
 					<div class="hero-content-innerpad">
@@ -53,7 +53,48 @@ get_header(); ?>
 
 	<div class="doubleside">
 
-		<?php wp_list_pages( '&title_li=' ); ?>
+		<div class="content-wrapper">
+
+			<div class="col-content">
+
+				<div class="col-content-one">
+
+					&nbsp;
+
+				</div><!-- one -->
+
+				<div class="col-content-two">
+
+					<span class="header">About Machine Gun</span>
+
+					<p>
+						Welcome to Machine Gun Studios, a recording studio and mixing facility in Jamaica Plain, Massachusetts, just outside of Boston. My name&rsquo;s Mike Irwin. I&rsquo;m a professional recording and mixing engineer, teacher and musician with more than 30 years&rsquo; experience in music. I started Machine Gun in 2003.
+					</p>
+
+
+					<p>
+						Machine Gun also offers mixing as part of your recording session, or as a standalone service.
+					</p>
+
+					<p>
+						Let&rsquo;s talk soon. I&rsquo;d love to hear more about your project and chat with you about how I can help.
+					</p>
+
+				</div><!-- two -->
+
+				<div class="col-content-three">
+
+					<span class="header">The Lastest:</span>
+
+					<p>hi</p>
+
+				</div><!-- three -->
+
+				<div class="clearfix"></div>
+
+			</div><!-- rap -->
+
+		</div><!-- content wrapper -->
 
 	</div><!-- doubleside -->
 

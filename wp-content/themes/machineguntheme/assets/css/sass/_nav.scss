@@ -115,7 +115,7 @@ nav {
 				display: inline-block;
 				text-decoration: none;
 				padding: .25em 0;
-				@include divshadow($blue);
+				@include divshadow($darkblue);
 				position: relative;
 				padding-right: $contact-snipe-pad;
 				border-radius: .25em;

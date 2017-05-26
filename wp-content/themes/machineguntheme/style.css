@@ -325,13 +325,13 @@ input, select {
   vertical-align: middle; }
 
 ::-moz-selection {
-  background: #225378; }
+  background: #2d6ea0; }
 
 ::selection {
-  background: #225378; }
+  background: #2d6ea0; }
 
 ::-moz-selection {
-  background: #225378; }
+  background: #2d6ea0; }
 
 .clearfix {
   clear: both; }
@@ -582,7 +582,52 @@ nav {
 .doubleside {
   width: 100%;
   background-color: yellow;
-  padding-top: 2em;
-  background: linear-gradient(to left, #225378 38%, transparent 36%); }
+  background: linear-gradient(to left, #2d6ea0 39%, transparent 36%); }
+
+.col-content {
+  width: 100%;
+  height: auto;
+  padding: 0 5%;
+  display: flex; }
+
+.col-content-one {
+  width: 12%;
+  float: left; }
+
+.col-content-two {
+  width: 50.25%;
+  padding-right: 7.5%;
+  padding-top: 4em;
+  float: left; }
+
+.col-content-three {
+  width: 37.75%;
+  padding-top: 4em;
+  padding-left: 5%;
+  float: left;
+  background-color: #2d6ea0; }
+
+.col-content-two,
+.col-content-three {
+  padding-bottom: 3em; }
+  .col-content-two .header,
+  .col-content-three .header {
+    font-family: "headlinefont", Gadget, sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #0c1f2d; }
+  .col-content-two p,
+  .col-content-three p {
+    margin-bottom: 1.5em; }
+  .col-content-two p:last-of-type,
+  .col-content-three p:last-of-type {
+    margin-bottom: 0; }
+
+.col-content-three .header {
+  color: #ACF0F2;
+  border-color: #ACF0F2; }
 
 /*# sourceMappingURL=style.css.map */

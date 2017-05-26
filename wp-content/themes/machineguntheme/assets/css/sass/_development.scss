@@ -13,7 +13,7 @@
 
 .hero {
 	width: 100%;
-	background-color: $blue;
+	background-color: $darkblue;
 	@include divshadow;
 	background-size: cover;
 }
@@ -23,7 +23,7 @@
 		height: 100%;
 		position: relative;
 		background-image: url('assets/images/hero-overlay.png');
-		background-color: rgba($blue, .65);
+		background-color: rgba($darkblue, .65);
 		background-size: cover;
 		background-position: center center;
 	}
@@ -134,6 +134,75 @@
 	.doubleside {
 		width: 100%;
 		background-color: yellow;
-		padding-top: 2em;
-		background: linear-gradient(to left, $blue 38%, transparent 36%); 
+		background: linear-gradient(to left, $blue 39%, transparent 36%); 
 	}
+
+		.col-content {
+			width: 100%;
+			height: auto;
+			padding: 0 5%;
+			display: flex;
+		}
+
+			.col-content-one{
+				width: 12%;
+				float: left;
+			}
+
+			.col-content-two {
+				width: 50.25%;
+				padding-right: 7.5%;
+				padding-top: 4em;
+				float: left;
+			}
+
+			.col-content-three {
+				width: 37.75%;
+				padding-top: 4em;
+				padding-left: 5%;
+				float: left;
+				background-color: $blue;
+			}
+
+				.col-content-two,
+				.col-content-three {
+					padding-bottom: 3em;
+
+					.header {
+						font-family: $headline-font;
+						font-size: 1.5em;
+						text-transform: uppercase;
+						display: inline-block;
+						padding-bottom: .5em;
+						margin-bottom: 1em;
+						border-bottom: 1px solid $black;
+					}
+
+					p {
+						margin-bottom: 1.5em;
+					}
+
+					p:last-of-type {
+						margin-bottom: 0;
+					}
+				}
+
+					.col-content-three {
+						.header {
+							color: $lightblue;
+							border-color: $lightblue;
+						}
+					}
+
+
+
+
+
+
+
+
+
+
+
+
+

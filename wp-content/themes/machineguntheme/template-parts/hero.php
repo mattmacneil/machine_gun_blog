@@ -1,5 +1,14 @@
 
-	<div class="hero hero-frontpage" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/hero-frontpage.jpg');">
+	<?php
+
+		if(!is_front_page()){
+			echo "RAP!";
+		}
+
+	?>
+
+	<div class="hero hero-frontpage" style="background-image: url('<?php echo the_post_thumbnail_url(); ?>');">
+
 
 		<div class="hero-overlay hero-transparent">
 
@@ -14,10 +23,12 @@
 
 					<div class="hero-content-innerpad">
 
-						<!--<div class="hero-content-bg">
-						</div><!-- hero content bg -->
+					<?php 
 
-						<?php 
+							if(!is_front_page()){
+								echo '<div class="hero-content-bg"></div><!-- hero content bg -->';
+							}
+
 							if ( is_front_page() ) {	
 								echo '<img src="';
 								echo bloginfo('template_url');

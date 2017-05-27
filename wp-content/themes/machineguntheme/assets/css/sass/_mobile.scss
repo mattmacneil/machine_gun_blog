@@ -7,5 +7,55 @@
 
 @media screen and (max-width: 900px){
 
+	.hero-container {
+		background: linear-gradient(to right, $white 95%, transparent 36%);
+	}
+
+	.hero-content-innerpad {
+		padding-left: 0;
+		margin-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+
+	.hero-underbar {
+		background: linear-gradient(to right, $white 95%, transparent 36%); 
+	}
+
+	.col-content-one {
+		display: none;
+	}
+
+	.col-content-two {
+		width: 50.25% + 12%;
+	}
 
 } //900
+
+@media screen and (max-width: 775px){
+
+	.doubleside {
+		background: transparent;
+	}
+
+	.col-content {
+		flex-direction: column;
+	}
+
+	.col-content-two {
+		width: 100%;
+	}
+
+	.col-content-three {
+		width: 100%;
+		padding-right: 5%;
+		border-radius: 1em;
+		@include divshadow;
+		margin-bottom: 3em;
+	}
+
+		.front-right-pic {
+			display: none;
+		}
+
+} // 775

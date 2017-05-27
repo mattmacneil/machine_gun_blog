@@ -11,6 +11,10 @@
 		padding: 0 5%;
 	}
 
+	.no-top-pad {
+		padding-top: 0 !important;
+	}
+
 .hero {
 	width: 100%;
 	background-color: $darkblue;
@@ -255,10 +259,30 @@
 					}
 
 					a:last-of-type {
-						color: $orange;
 						text-decoration: none;
+						font-weight: bold;
 					}
 				}
+
+	.front-right-pic {
+		background-image: url('assets/images/stripe.png');
+		position: relative;
+		padding: 0;
+		overflow-x: visible;
+	}
+
+		.front-right-pic-inner {
+			width: 115%;
+			height: 100%;
+			background-image: url('assets/images/front-right-pic-inner.jpg');
+			background-size: cover;
+		}
+
+			.front-right-pic-inner-overlay {
+				width: 100%;
+				height: 100%;
+				background-color: rgba($blue, .25);
+			}
 
 
 

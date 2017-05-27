@@ -149,6 +149,41 @@ get_header(); ?>
 
 	</div><!-- doubleside -->
 
+	<div class="doubleside">
+
+		<div class="content-wrapper">
+
+			<div class="col-content">
+
+				<div class="col-content-one">
+
+					&nbsp;
+
+				</div><!-- one -->
+
+				<div class="col-content-two no-top-pad">
+
+					<span class="header">Services:</span>
+
+				</div><!-- col content two -->
+
+				<div class="col-content-three front-right-pic">
+
+					<div class="front-right-pic-inner">
+
+						<div class="front-right-pic-inner-overlay">
+						</div><!-- front right pic inner overlay -->
+
+					</div><!-- front right pic inner -->
+
+				</div><!-- col content three -->
+
+			</div><!-- col content -->
+
+		</div><!-- content wrapper -->
+
+	</div><!-- doubleside -->
+
 	<div style="width: 100%; margin: 100px 5%;">
 
 

@@ -59,7 +59,7 @@ get_header(); ?>
 
 				<div class="col-content-one">
 
-					&nbsp;
+					<span>&raquo;</span>
 
 				</div><!-- one -->
 
@@ -155,9 +155,12 @@ get_header(); ?>
 
 			<div class="col-content">
 
-				<div class="col-content-one">
+				<div class="col-content-one no-top-pad">
 
-					&nbsp;
+					<span>&raquo;</span>
+
+					<div class="col-content-burst-snipe">
+					</div><!-- col content burst snipe -->
 
 				</div><!-- one -->
 

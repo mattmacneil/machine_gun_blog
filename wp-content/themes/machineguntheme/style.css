@@ -595,7 +595,25 @@ nav {
 
 .col-content-one {
   width: 12%;
-  float: left; }
+  float: left;
+  position: relative;
+  padding-top: 4em; }
+  .col-content-one span {
+    font-family: "headlinefont", Gadget, sans-serif;
+    font-size: 3em;
+    line-height: .65;
+    color: #2d6ea0;
+    color: rgba(34, 83, 120, 0.5); }
+
+.col-content-burst-snipe {
+  position: absolute;
+  left: -8em;
+  top: -6em;
+  background-image: url("assets/images/hero-content-bg.png");
+  background-size: contain;
+  width: 14em;
+  height: 14em;
+  z-index: -1; }
 
 .col-content-two {
   width: 50.25%;

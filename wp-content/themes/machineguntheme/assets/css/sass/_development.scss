@@ -196,13 +196,54 @@
 
 			.col-post-wrapper {
 				width: 100%;
-				background-color: red;
+				display: flex;
 			}
 
 				.col-post-date {
-					width: 40%;
-					background-color: yellow;
-					float: left;
+					margin-right: 2em;
+				}
+
+					.col-post-date-wrapper {
+						border: 1px solid $lightblue;
+						border-radius: .25em;
+					}
+
+						.col-post-date-top {
+							-webkit-border-top-left-radius: .25em;
+							-webkit-border-top-right-radius: .25em;
+							-moz-border-radius-topleft: .25em;
+							-moz-border-radius-topright: .25em;
+							border-top-left-radius: .25em;
+							border-top-right-radius: .25em;
+						}
+
+						.col-post-date-mid {
+							padding: .35em .5em;
+							font-size: 1.25em;
+							color: $lightblue;
+						}
+
+						.col-post-date-bottom {
+							text-align: center;
+							-webkit-border-bottom-right-radius: .25em;
+							-webkit-border-bottom-left-radius: .25em;
+							-moz-border-radius-bottomright: .25em;
+							-moz-border-radius-bottomleft: .25em;
+							border-bottom-right-radius: .25em;
+							border-bottom-left-radius: .25em;
+						}
+
+							.col-post-date-top,
+							.col-post-date-bottom {
+								text-align: center;
+								background-color: $lightblue;
+								font-size: .75em;
+								padding: .15em 0;
+								color: $blue;
+							}
+
+				.col-post-content {
+					flex: 1;
 				}
 
 

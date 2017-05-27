@@ -90,11 +90,35 @@ get_header(); ?>
 
 						<div class="col-post-date">
 
-							hi
+							<div class="col-post-date-wrapper">
+
+								<div class="col-post-date-top">
+
+									jun
+
+								</div><!-- col post date top -->
+
+								<div class="col-post-date-mid">
+
+									25
+
+								</div><!-- col post date mid -->
+
+								<div class="col-post-date-bottom">
+
+									2016
+
+								</div><!-- col post date top -->
+
+							</div><!-- col post date wrapper -->
 
 						</div><!-- col post date -->
 
-						<div class="clearfix"></div>
+						<div class="col-post-content">
+
+							hi
+
+						</div><!-- col post content -->
 
 					</div><!-- col post wrapper -->
 

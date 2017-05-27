@@ -197,6 +197,7 @@
 			.col-post-wrapper {
 				width: 100%;
 				display: flex;
+				margin-bottom: 2em;
 			}
 
 				.col-post-date {
@@ -206,6 +207,7 @@
 					.col-post-date-wrapper {
 						border: 1px solid $lightblue;
 						border-radius: .25em;
+						font-family: monospace;
 					}
 
 						.col-post-date-top {
@@ -221,6 +223,7 @@
 							padding: .35em .5em;
 							font-size: 1.25em;
 							color: $lightblue;
+							text-align: center;
 						}
 
 						.col-post-date-bottom {
@@ -240,10 +243,21 @@
 								font-size: .75em;
 								padding: .15em 0;
 								color: $blue;
+								text-transform: lowercase;
+								font-variant: small-caps;
 							}
 
 				.col-post-content {
 					flex: 1;
+
+					a:first-of-type {
+						font-weight: bold;
+					}
+
+					a:last-of-type {
+						color: $orange;
+						text-decoration: none;
+					}
 				}
 
 

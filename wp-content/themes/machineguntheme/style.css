@@ -632,14 +632,16 @@ nav {
 
 .col-post-wrapper {
   width: 100%;
-  display: flex; }
+  display: flex;
+  margin-bottom: 2em; }
 
 .col-post-date {
   margin-right: 2em; }
 
 .col-post-date-wrapper {
   border: 1px solid #ACF0F2;
-  border-radius: .25em; }
+  border-radius: .25em;
+  font-family: monospace; }
 
 .col-post-date-top {
   -webkit-border-top-left-radius: .25em;
@@ -652,7 +654,8 @@ nav {
 .col-post-date-mid {
   padding: .35em .5em;
   font-size: 1.25em;
-  color: #ACF0F2; }
+  color: #ACF0F2;
+  text-align: center; }
 
 .col-post-date-bottom {
   text-align: center;
@@ -669,9 +672,16 @@ nav {
   background-color: #ACF0F2;
   font-size: .75em;
   padding: .15em 0;
-  color: #2d6ea0; }
+  color: #2d6ea0;
+  text-transform: lowercase;
+  font-variant: small-caps; }
 
 .col-post-content {
   flex: 1; }
+  .col-post-content a:first-of-type {
+    font-weight: bold; }
+  .col-post-content a:last-of-type {
+    color: #EB7F00;
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

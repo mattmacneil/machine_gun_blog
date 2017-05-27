@@ -23,16 +23,12 @@
 								echo bloginfo('template_url');
 								echo '/assets/images/landing-bars.gif">'; 
    						}
-						?>
 
-						<?php 
 							$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
 							if( ! empty( $pageheadline ) ) {
 								echo '<h1>' . $pageheadline . '</h1>';
 							}
-						?>
 
-						<?php 
 							$herotext = get_post_meta( get_the_ID(), 'herotext', true);
 							if( ! empty( $herotext ) ) {
 								echo '<p>' . $herotext . '</p>';

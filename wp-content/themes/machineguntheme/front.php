@@ -86,7 +86,17 @@ get_header(); ?>
 
 					<span class="header">The Lastest:</span>
 
-					<p>hi</p>
+					<div class="col-post-wrapper">
+
+						<div class="col-post-date">
+
+							hi
+
+						</div><!-- col post date -->
+
+						<div class="clearfix"></div>
+
+					</div><!-- col post wrapper -->
 
 				</div><!-- three -->
 

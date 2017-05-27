@@ -78,7 +78,7 @@
 					}
 
 					p {
-						line-height: 1.5;
+						line-height: 1.25;
 						margin-bottom: .5em;
 						text-align: justify;
 					}
@@ -194,6 +194,16 @@
 						}
 					}
 
+			.col-post-wrapper {
+				width: 100%;
+				background-color: red;
+			}
+
+				.col-post-date {
+					width: 40%;
+					background-color: yellow;
+					float: left;
+				}
 
 
 

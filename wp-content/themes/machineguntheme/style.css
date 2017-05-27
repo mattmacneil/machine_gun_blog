@@ -540,7 +540,7 @@ nav {
     .hero-content-innerpad h1 span {
       font-family: 'headlinefont-it'; }
   .hero-content-innerpad p {
-    line-height: 1.5;
+    line-height: 1.25;
     margin-bottom: .5em;
     text-align: justify; }
   .hero-content-innerpad p:last-of-type {
@@ -629,5 +629,14 @@ nav {
 .col-content-three .header {
   color: #ACF0F2;
   border-color: #ACF0F2; }
+
+.col-post-wrapper {
+  width: 100%;
+  background-color: red; }
+
+.col-post-date {
+  width: 40%;
+  background-color: yellow;
+  float: left; }
 
 /*# sourceMappingURL=style.css.map */

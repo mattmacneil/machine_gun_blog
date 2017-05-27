@@ -17,7 +17,13 @@
 						<!--<div class="hero-content-bg">
 						</div><!-- hero content bg -->
 
-						<img src="<?php bloginfo('template_url'); ?>/assets/images/landing-bars.gif" ?>
+						<?php 
+							if ( is_front_page() ) {	
+								echo '<img src="';
+								echo bloginfo('template_url');
+								echo '/assets/images/landing-bars.gif">'; 
+   						}
+						?>
 
 						<?php 
 							$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
@@ -26,10 +32,12 @@
 							}
 						?>
 
-						<p>
-							Machine Gun Studios is an intimate boutique studio to lay down all your recording dreams with a stunning gear list, a singular ear to facilitate the process, and crazy amounts of atmospheric charm.
-						</p>
-
+						<?php 
+							$herotext = get_post_meta( get_the_ID(), 'herotext', true);
+							if( ! empty( $herotext ) ) {
+								echo '<p>' . $herotext . '</p>';
+							}
+						?>
 					</div><!-- hero content rightpad -->
 
 				</div><!-- hero content wrapper -->

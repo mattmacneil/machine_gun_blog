@@ -125,7 +125,7 @@ get_header(); ?>
 
 							<br />
 
-							<?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '...');?>
+							<?php $content = get_the_content(); echo mb_strimwidth($content, 0, 75, '...');?>
 
 							<a href="<?php the_permalink(); ?>">more&raquo;</a>
 

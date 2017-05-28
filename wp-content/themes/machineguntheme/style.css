@@ -486,6 +486,9 @@ nav {
 .no-top-pad {
   padding-top: 0 !important; }
 
+.no-pad {
+  padding: 0 !important; }
+
 .hero {
   width: 100%;
   background-color: #225378;
@@ -764,6 +767,60 @@ nav {
   background-position: center bottom; }
 .front-services-cell:hover .noline {
   text-decoration: underline; }
+
+.contact-wrap {
+  width: 100%;
+  background-color: #ACF0F2; }
+  .contact-wrap .col-content-one img {
+    height: 1.25em;
+    margin-top: .25em; }
+  .contact-wrap .col-content-two .header {
+    color: #225378;
+    border-color: #225378; }
+  .contact-wrap input[type="text"],
+  .contact-wrap input[type="email"],
+  .contact-wrap textarea {
+    width: 100%;
+    margin-bottom: .75em;
+    border: 0;
+    outline: 0;
+    padding: .75em .5em;
+    box-sizing: border-box;
+    background-color: #f3ffe2; }
+  .contact-wrap input[type="text"] {
+    -webkit-border-top-left-radius: .75em;
+    -webkit-border-top-right-radius: .75em;
+    -moz-border-radius-topleft: .75em;
+    -moz-border-radius-topright: .75em;
+    border-top-left-radius: .75em;
+    border-top-right-radius: .75em; }
+  .contact-wrap textarea {
+    height: 6em;
+    resize: vertical;
+    -webkit-border-bottom-right-radius: .75em;
+    -webkit-border-bottom-left-radius: .75em;
+    -moz-border-radius-bottomright: .75em;
+    -moz-border-radius-bottomleft: .75em;
+    border-bottom-right-radius: .75em;
+    border-bottom-left-radius: .75em; }
+  .contact-wrap input[type="submit"] {
+    width: 50%;
+    margin-left: 50%;
+    padding: .5em 0;
+    border: 0;
+    outline: 2px solid #EB7F00;
+    color: #EB7F00;
+    background-color: #ACF0F2;
+    text-transform: lowercase; }
+
+.contact-side {
+  width: 115%;
+  height: 100%;
+  background-color: #28618c;
+  background-image: url("assets/images/stripe.png"); }
+
+.contact-form-wrapper {
+  width: 100%; }
 
 @media screen and (max-width: 900px) {
   .hero-container {

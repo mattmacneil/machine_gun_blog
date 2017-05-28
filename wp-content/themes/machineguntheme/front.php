@@ -128,7 +128,7 @@
 					<div class="front-services-container">
 
 						<div class="front-services-cell">
-							<a href="record" class="noline">
+							<a href="recording" class="noline">
 							<div class="front-services-cell-inner">
 
 								<div class="front-services-icon front-services-recording">
@@ -141,7 +141,7 @@
 						</div><!-- front services cell -->
 
 						<div class="front-services-cell">
-							<a href="RAP" class="noline">
+							<a href="mixing" class="noline">
 							<div class="front-services-cell-inner">
 
 								<div class="front-services-icon front-services-mixing">
@@ -154,7 +154,7 @@
 						</div><!-- front services cell -->
 
 						<div class="front-services-cell">
-							<a href="RAP" class="noline">
+							<a href="contact" class="noline">
 							<div class="front-services-cell-inner">
 
 								<div class="front-services-icon front-services-consulting">
@@ -171,7 +171,7 @@
 					<div class="front-services-container">
 
 						<div class="front-services-cell">
-							<a href="RAP" class="noline">
+							<a href="studio" class="noline">
 							<div class="front-services-cell-inner">
 
 								<div class="front-services-icon front-services-pics">
@@ -184,7 +184,7 @@
 						</div><!-- front services cell -->
 
 						<div class="front-services-cell">
-							<a href="RAP" class="noline">
+							<a href="gear" class="noline">
 							<div class="front-services-cell-inner">
 
 								<div class="front-services-icon front-services-gear">
@@ -197,7 +197,7 @@
 						</div><!-- front services cell -->
 
 						<div class="front-services-cell">
-							<a href="RAP" class="noline">
+							<a href="blog" class="noline">
 							<div class="front-services-cell-inner">
 
 								<div class="front-services-icon front-services-blog">
@@ -230,11 +230,5 @@
 		</div><!-- content wrapper -->
 
 	</div><!-- doubleside -->
-
-	<div style="width: 100%; margin: 100px 5%;">
-
-
-
-	</div>
 
 	<?php get_footer(); ?>

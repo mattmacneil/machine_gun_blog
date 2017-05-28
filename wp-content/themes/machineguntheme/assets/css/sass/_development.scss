@@ -15,6 +15,10 @@
 		padding-top: 0 !important;
 	}
 
+	.no-pad {
+		padding: 0 !important;
+	}
+
 .hero {
 	width: 100%;
 	background-color: $darkblue;
@@ -366,7 +370,78 @@
 				}
 			}
 
+.contact-wrap {
+	width: 100%;
+	background-color: $lightblue;
 
+	.col-content-one {
+		img {
+			height: 1.25em;
+			margin-top: .25em;
+		}
+	}
+
+	.col-content-two {
+		.header {
+			color: $darkblue;
+			border-color: $darkblue;
+		}
+	}
+
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		width: 100%;
+		margin-bottom: .75em;
+		border: 0;
+		outline: 0;
+		padding: .75em .5em;
+		box-sizing: border-box;
+		background-color: $white;
+	}
+
+	input[type="text"] {
+		-webkit-border-top-left-radius: .75em;
+		-webkit-border-top-right-radius: .75em;
+		-moz-border-radius-topleft: .75em;
+		-moz-border-radius-topright: .75em;
+		border-top-left-radius: .75em;
+		border-top-right-radius: .75em;
+	}
+
+	textarea {
+		height: 6em;
+		resize: vertical;
+		-webkit-border-bottom-right-radius: .75em;
+		-webkit-border-bottom-left-radius: .75em;
+		-moz-border-radius-bottomright: .75em;
+		-moz-border-radius-bottomleft: .75em;
+		border-bottom-right-radius: .75em;
+		border-bottom-left-radius: .75em;
+	}
+
+	input[type="submit"] {
+		width: 50%;
+		margin-left: 50%;
+		padding: .5em 0;
+		border: 0;
+		outline: 2px solid $orange;
+		color: $orange;
+		background-color: $lightblue;
+		text-transform: lowercase;
+	}
+}
+
+	.contact-side {
+		width: 115%;
+		height: 100%;
+		background-color: $contactblue;
+		background-image: url('assets/images/stripe.png');
+	}
+
+	.contact-form-wrapper {
+		width: 100%;
+	}
 
 
 

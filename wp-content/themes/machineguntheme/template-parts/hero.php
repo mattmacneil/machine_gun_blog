@@ -1,10 +1,19 @@
 
-
-
 	<div class="hero hero-frontpage" style="background-image: url('<?php echo the_post_thumbnail_url(); ?>');">
 
+		<?php
 
-		<div class="hero-overlay hero-transparent">
+		$page_name_slug = basename(get_permalink());
+		$hero_trans_class = "";
+
+			if ($page_name_slug == "mgwp" || $page_name_slug == "studio" || $page_name_slug == "contact") {
+				$hero_trans_class = "hero-transparent";
+			}
+					else $hero_trans_class = "";
+
+		?>
+
+		<div class="hero-overlay <?php echo $hero_trans_class; ?>">
 
 			<div class="nav-blocker"></div><!-- nav blocker -->
 

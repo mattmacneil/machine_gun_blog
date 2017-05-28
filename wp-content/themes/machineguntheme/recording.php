@@ -8,6 +8,25 @@ get_header(); ?>
 <div class="nav-blocker"></div><!-- nav blocker -->
 
 
+	<?php
+
+	$page_name_slug = basename(get_permalink());
+	$hero_trans_class = " ";
+
+		if ($page_name_slug == "mgwp") {
+			$hero_trans_class = "hero-transparent";
+		}
+			elseif ($page_name_slug == "recording") {
+				$hero_trans_class = "hero-transparent";
+			}
+				else $hero_trans_class = " ";
+
+		echo $hero_trans_class;
+
+
+	?>
+
+
 <?php 
  
 	$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
@@ -18,6 +37,16 @@ get_header(); ?>
  
 ?>
 
+OI
+
+
+<?php
+
+	$slug = basename(get_permalink());
+
+	echo $slug;
+
+?>
 
 <div style="background-color: orange; margin: 100px 0;">HELLO</div>
 

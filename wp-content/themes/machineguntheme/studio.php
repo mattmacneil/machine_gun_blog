@@ -10,43 +10,16 @@
 
 ?>
 
-	<div class="doubleside">
+	<div class="studio-wrapper">
 
-		<div class="content-wrapper">
+		<div class="content-wrapper studio-padding">
 
-			<div class="col-content">
+			<div style="width: 32%; height: 200px; background-color: yellow; float: right;">hi</div>
 
-				<div class="col-content-one">
+						<div style="width: 32%; margin: 0 2%; height: 200px; background-color: yellow; float: right;">hi</div>
+									<div style="width: 32%; height: 200px; background-color: yellow; float: right;">hi</div>	
 
-					<span>&raquo;</span>
-
-				</div><!-- one -->
-
-				<div class="col-content-two">
-
-					<?php
-
-						$recordmixcontent = get_post_meta( get_the_ID(), 'recordmixcontent', true);
-						if( ! empty( $recordmixcontent ) ) {
-							echo $recordmixcontent;
-						}
-							else {
-								echo '<h1>All The Latest From Machine Gun Studios.</h1>';
-							}
-
-					?>
-
-				</div><!-- two -->
-
-				<div class="col-content-three">
-
-					<?php get_sidebar(); ?>
-
-				</div><!-- three -->
-
-				<div class="clearfix"></div>
-
-			</div><!-- rap -->
+			<div class="clearfix"></div>
 
 		</div><!-- content wrapper -->
 

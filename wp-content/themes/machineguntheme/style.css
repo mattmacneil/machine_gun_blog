@@ -566,7 +566,7 @@ nav {
   left: -8em;
   top: -4em;
   background-image: url("assets/images/hero-content-bg.png");
-  background-size: contain;
+  background-size: cover;
   width: 14em;
   height: 14em; }
 
@@ -576,6 +576,7 @@ nav {
   position: absolute;
   left: 0;
   bottom: -2em;
+  z-index: 1;
   background: linear-gradient(to right, #f3ffe2 64%, transparent 36%); }
 
 .hero-transparent .hero-container {
@@ -767,6 +768,18 @@ nav {
   background-position: center bottom; }
 .front-services-cell:hover .noline {
   text-decoration: underline; }
+
+.contact-hl-signature {
+  width: 100%;
+  background-color: orange;
+  text-align: right;
+  margin-top: 2em; }
+  .contact-hl-signature span {
+    font-size: 2.5em;
+    font-family: cursive;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: .25em; }
 
 .contact-wrap {
   width: 100%;

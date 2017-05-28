@@ -49,11 +49,17 @@
 							if( ! empty( $pageheadline ) ) {
 								echo '<h1>' . $pageheadline . '</h1>';
 							}
+								else {
+									echo '<h1>All The Latest From Machine Gun Studios.</h1>';
+								}
 
 							$herotext = get_post_meta( get_the_ID(), 'herotext', true);
 							if( ! empty( $herotext ) ) {
 								echo '<p>' . $herotext . '</p>';
 							}
+								else {
+									echo 'Something something is a thing.';
+								}
 						?>
 
 					</div><!-- hero content rightpad -->

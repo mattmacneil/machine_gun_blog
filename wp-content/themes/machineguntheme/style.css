@@ -834,7 +834,12 @@ nav {
 
 .footer-wrap {
   width: 100%;
-  background-color: #225378; }
+  background-color: #0c1f2d;
+  color: #3e586b; }
+  .footer-wrap .col-content .col-content-one {
+    padding-bottom: 3em; }
+    .footer-wrap .col-content .col-content-one img {
+      height: 3em; }
 
 @media screen and (max-width: 900px) {
   .hero-container {

@@ -452,7 +452,18 @@
 
 .footer-wrap {
 	width: 100%;
-	background-color: $darkblue;
+	background-color: $footerbg;
+	color: $footerblue;
+
+	.col-content {
+		.col-content-one {
+			img {
+				height: 3em;
+			}
+
+			padding-bottom: 3em;
+		}
+	}
 }
 
 

@@ -168,6 +168,8 @@
 
 					</div><!-- front services container -->
 
+					<span class="header">In-Studio:</span>
+
 					<div class="front-services-container">
 
 						<div class="front-services-cell">

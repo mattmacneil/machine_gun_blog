@@ -47,7 +47,31 @@
 
 		<div class="footer-wrap">
 
-			hi
+			<div class="content-wrapper">
+
+				<div class="col-content">
+
+					<div class="col-content-one">
+
+						<img src="<?php bloginfo('template_url'); ?>/assets/images/footer-logo.png" alt="Contact Machine Gun." /> 
+
+					</div><!-- col content one -->
+
+					<div class="col-content-two">
+
+						hi
+
+					</div><!-- col content two -->
+
+					<div class="col-content-three" style="background-color: transparent;">
+
+						hi
+
+					</div><!-- col content three -->
+
+				</div><!-- col content -->
+
+			</div><!-- content wrapper -->
 
 		</div><!-- footer wrap -->
 

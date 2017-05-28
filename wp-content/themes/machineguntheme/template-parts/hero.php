@@ -1,11 +1,5 @@
 
-	<?php
 
-		if(!is_front_page()){
-			echo "RAP!";
-		}
-
-	?>
 
 	<div class="hero hero-frontpage" style="background-image: url('<?php echo the_post_thumbnail_url(); ?>');">
 
@@ -17,15 +11,23 @@
 			<div class="hero-container">
 
 				<div class="content-wrapper sidepad hero-content-pad">
-					
-					<!--<div class="hero-content-snipe" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/hero-frontpage.jpg');">
-					</div><!-- hero content snipe -->
+
+						<?php 
+
+							if ( !is_front_page() ) {
+
+								echo '<div class="hero-content-snipe" style="background-image: url(';
+								echo kdmfi_get_featured_image_src('featured-image-2');
+								echo ');"></div><!-- hero content snipe -->';	
+
+							}
+						?>			
 
 					<div class="hero-content-innerpad">
 
-					<?php 
+						<?php 
 
-							if(!is_front_page()){
+							if ( !is_front_page() ) {
 								echo '<div class="hero-content-bg"></div><!-- hero content bg -->';
 							}
 
@@ -45,6 +47,7 @@
 								echo '<p>' . $herotext . '</p>';
 							}
 						?>
+
 					</div><!-- hero content rightpad -->
 
 				</div><!-- hero content wrapper -->

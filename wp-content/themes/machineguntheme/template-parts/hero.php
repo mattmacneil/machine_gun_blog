@@ -1,12 +1,12 @@
 		<?php
 
 		$checkstudio_slug = basename(get_permalink());
-		$studio_trans = "";
+		$studio_trans = NULL;
 
 			if ($checkstudio_slug == "studio") {
 				$studio_trans = "background-color: rgba(34, 83, 120, 0.3);";
 			}
-					else $studio_trans = "";
+					else $studio_trans = NULL;
 		?>
 
 
@@ -15,12 +15,12 @@
 		<?php
 
 		$page_name_slug = basename(get_permalink());
-		$hero_trans_class = "";
+		$hero_trans_class = NULL;
 
 			if ($page_name_slug == "mgwp" || $page_name_slug == "studio" || $page_name_slug == "contact") {
 				$hero_trans_class = "hero-transparent";
 			}
-					else $hero_trans_class = "";
+					else $hero_trans_class = NULL;
 		?>
 
 		<div class="hero-overlay <?php echo $hero_trans_class; ?>" style="<?php echo $studio_trans; ?>">

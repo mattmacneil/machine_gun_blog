@@ -22,6 +22,21 @@
 		width: 100%;
 	}
 
+	.hero-content-bg {
+		display: none;
+	}
+
+	.hero-content-snipe {
+		left: 5%;
+		top: -2em;
+		height: 4em;
+		width: 4em;
+		background-color: $orange;
+		background-position: center center;
+		background-size: auto 50%;
+		border-radius: 50%;
+	}
+
 	.hero-underbar {
 		background: linear-gradient(to right, $white 95%, transparent 36%); 
 	}

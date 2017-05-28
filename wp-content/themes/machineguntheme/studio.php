@@ -84,17 +84,12 @@
 
 				</div><!-- studio pic -->
 
-				<div class="studio-pic">
+				<div class="studio-pic studio-pic-text">
 
 					<a href="" class="noline">
-					<div class="studio-pic-overlay">
+					<div class="studio-pic-overlay studio-pic-overlay-text">
 
-						<div class="studio-pic-icon">
-						</div><!-- studio pic icon -->
-
-						<div class="studio-pic-title">
-							The Title
-						</div><!-- studio pic title -->
+						Pictures can only say so much - the spirit and soul of Machine Gun Studios must be experienced live. <a href="contact">Contact me</a> to set up a time.
 
 					</div><!-- studio pic overlay -->
 					</a>

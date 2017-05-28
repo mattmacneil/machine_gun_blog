@@ -823,6 +823,18 @@ nav {
   text-shadow: #0c1f2d 1px 0 15px;
   font-family: "headlinefont", Gadget, sans-serif; }
 
+.studio-pic-text {
+  display: table; }
+
+.studio-pic-overlay-text {
+  display: table-cell;
+  vertical-align: middle; }
+
+.studio-pic-text,
+.studio-pic-overlay-text {
+  background-color: transparent;
+  background-image: none; }
+
 .contact-hl-signature {
   width: 100%;
   text-align: right;

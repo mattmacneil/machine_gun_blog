@@ -832,6 +832,10 @@ nav {
 .contact-form-wrapper {
   width: 100%; }
 
+.footer-wrap {
+  width: 100%;
+  background-color: #225378; }
+
 @media screen and (max-width: 900px) {
   .hero-container {
     background: linear-gradient(to right, #f3ffe2 95%, transparent 36%); }
@@ -858,7 +862,8 @@ nav {
     flex-direction: column; }
 
   .col-content-two {
-    width: 100%; }
+    width: 100%;
+    padding-right: 0; }
 
   .col-content-three {
     width: 100%;

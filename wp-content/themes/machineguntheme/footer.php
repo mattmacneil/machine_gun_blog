@@ -43,6 +43,12 @@
 
 			</div><!-- content wrapper -->
 
+		</div><!-- contact wrap -->
+
+		<div class="footer-wrap">
+
+			hi
+
 		</div><!-- footer wrap -->
 
 		<?php wp_footer(); ?> 

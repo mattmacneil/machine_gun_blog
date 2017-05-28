@@ -6,7 +6,7 @@
 
 	get_header(); ?>
 
-	<?php get_template_part( 'template-parts/hero'); ?>
+	<?php get_template_part( 'template-parts/hero' ); ?>
 
 	<div class="doubleside">
 
@@ -124,6 +124,46 @@
 				<div class="col-content-two no-top-pad">
 
 					<span class="header">Services:</span>
+
+					<div class="front-services-container">
+
+						<div class="front-services-cell">
+
+							<a href="RAP">
+							<div class="front-services-cell-inner">
+
+								<div class="front-services-icon">
+
+									hi
+
+								</div><!-- front services icon -->
+
+								hi
+
+							</div><!-- front services cell inner -->
+							</a>
+
+						</div><!-- front services cell -->
+
+						<div class="front-services-cell">
+
+							hi
+
+						</div><!-- front services cell -->
+
+						<div class="front-services-cell">
+
+							hi
+
+						</div><!-- front services cell -->
+
+					</div><!-- front services container -->
+
+					<div class="front-services-container">
+
+						hi
+
+					</div><!-- front services container -->
 
 				</div><!-- col content two -->
 

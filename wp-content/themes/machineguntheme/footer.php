@@ -75,6 +75,10 @@
 
 		</div><!-- footer wrap -->
 
+		<div class="grave">
+			machine gun studios
+		</div><!-- grave -->
+
 		<?php wp_footer(); ?> 
 
   </body>

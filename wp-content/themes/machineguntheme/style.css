@@ -853,6 +853,15 @@ nav {
     .footer-wrap .col-content .col-content-one img {
       height: 3em; }
 
+.grave {
+  width: 100%;
+  background-color: #071119;
+  font-size: .5em;
+  color: #0c1f2d;
+  text-align: center;
+  padding: .75em 5%;
+  font-variant: small-caps; }
+
 @media screen and (max-width: 900px) {
   .hero-container {
     background: linear-gradient(to right, #f3ffe2 95%, transparent 36%); }

@@ -467,7 +467,7 @@
 
 .footer-wrap {
 	width: 100%;
-	background-color: $footerbg;
+	background-color: $black;
 	color: $footerblue;
 
 	.col-content {
@@ -481,6 +481,15 @@
 	}
 }
 
+.grave {
+	width: 100%;
+	background-color: darken($black, 5%);
+	font-size: .5em;
+	color: $black;
+	text-align: center;
+	padding: .75em 5%;
+	font-variant: small-caps;
+}
 
 
 

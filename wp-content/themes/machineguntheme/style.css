@@ -325,13 +325,13 @@ input, select {
   vertical-align: middle; }
 
 ::-moz-selection {
-  background: #2d6ea0; }
+  background: #EB7F00; }
 
 ::selection {
-  background: #2d6ea0; }
+  background: #EB7F00; }
 
 ::-moz-selection {
-  background: #2d6ea0; }
+  background: #EB7F00; }
 
 .clearfix {
   clear: both; }

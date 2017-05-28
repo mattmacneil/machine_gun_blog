@@ -1,3 +1,14 @@
+		<?php
+
+		$checkstudio_slug = basename(get_permalink());
+		$studio_trans = "";
+
+			if ($checkstudio_slug == "studio") {
+				$studio_trans = "background-color: rgba(34, 83, 120, 0.3);";
+			}
+					else $studio_trans = "";
+		?>
+
 
 	<div class="hero" style="background-image: url('<?php echo the_post_thumbnail_url(); ?>');">
 
@@ -12,7 +23,7 @@
 					else $hero_trans_class = "";
 		?>
 
-		<div class="hero-overlay <?php echo $hero_trans_class; ?>">
+		<div class="hero-overlay <?php echo $hero_trans_class; ?>" style="<?php echo $studio_trans; ?>">
 
 			<div class="nav-blocker"></div><!-- nav blocker -->
 

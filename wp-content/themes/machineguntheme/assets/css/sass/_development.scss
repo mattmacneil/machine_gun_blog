@@ -24,6 +24,7 @@
 	background-color: $darkblue;
 	@include divshadow;
 	background-size: cover;
+	background-position: center center;
 }
 
 	.hero-overlay {

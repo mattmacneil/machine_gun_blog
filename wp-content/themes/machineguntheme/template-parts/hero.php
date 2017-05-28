@@ -1,5 +1,5 @@
 
-	<div class="hero hero-frontpage" style="background-image: url('<?php echo the_post_thumbnail_url(); ?>');">
+	<div class="hero" style="background-image: url('<?php echo the_post_thumbnail_url(); ?>');">
 
 		<?php
 

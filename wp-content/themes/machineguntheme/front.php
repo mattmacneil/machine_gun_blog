@@ -128,40 +128,87 @@
 					<div class="front-services-container">
 
 						<div class="front-services-cell">
-
-							<a href="RAP">
+							<a href="RAP" class="noline">
 							<div class="front-services-cell-inner">
 
-								<div class="front-services-icon">
-
-									hi
-
+								<div class="front-services-icon front-services-recording">
 								</div><!-- front services icon -->
 
-								hi
+								Record
 
 							</div><!-- front services cell inner -->
 							</a>
-
 						</div><!-- front services cell -->
 
 						<div class="front-services-cell">
+							<a href="RAP" class="noline">
+							<div class="front-services-cell-inner">
 
-							hi
+								<div class="front-services-icon front-services-mixing">
+								</div><!-- front services icon -->
 
+								Mix
+
+							</div><!-- front services cell inner -->
+							</a>
 						</div><!-- front services cell -->
 
 						<div class="front-services-cell">
+							<a href="RAP" class="noline">
+							<div class="front-services-cell-inner">
 
-							hi
+								<div class="front-services-icon front-services-consulting">
+								</div><!-- front services icon -->
 
+								Consult
+
+							</div><!-- front services cell inner -->
+							</a>
 						</div><!-- front services cell -->
 
 					</div><!-- front services container -->
 
 					<div class="front-services-container">
 
-						hi
+						<div class="front-services-cell">
+							<a href="RAP" class="noline">
+							<div class="front-services-cell-inner">
+
+								<div class="front-services-icon front-services-pics">
+								</div><!-- front services icon -->
+
+								Pics
+
+							</div><!-- front services cell inner -->
+							</a>
+						</div><!-- front services cell -->
+
+						<div class="front-services-cell">
+							<a href="RAP" class="noline">
+							<div class="front-services-cell-inner">
+
+								<div class="front-services-icon front-services-gear">
+								</div><!-- front services icon -->
+
+								Gear
+
+							</div><!-- front services cell inner -->
+							</a>
+						</div><!-- front services cell -->
+
+						<div class="front-services-cell">
+							<a href="RAP" class="noline">
+							<div class="front-services-cell-inner">
+
+								<div class="front-services-icon front-services-blog">
+								</div><!-- front services icon -->
+
+								Blog
+
+							</div><!-- front services cell inner -->
+							</a>
+						</div><!-- front services cell -->
+
 
 					</div><!-- front services container -->
 

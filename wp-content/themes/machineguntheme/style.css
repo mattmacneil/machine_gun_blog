@@ -772,12 +772,24 @@ nav {
 
 .studio-wrapper {
   width: 100%;
-  background-color: pink;
   padding: 3em 0; }
 
 .studio-padding {
   padding-left: 16%;
   padding-right: 16%; }
+
+.studio-pic-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: orange;
+  justify-content: space-between; }
+
+.studio-pic {
+  width: 32%;
+  height: 12em;
+  background-color: yellow;
+  margin-bottom: 1em; }
 
 .contact-hl-signature {
   width: 100%;

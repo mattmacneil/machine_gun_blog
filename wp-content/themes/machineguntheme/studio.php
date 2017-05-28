@@ -14,12 +14,63 @@
 
 		<div class="content-wrapper studio-padding">
 
-			<div style="width: 32%; height: 200px; background-color: yellow; float: right;">hi</div>
+			<div class="studio-pic-container">
 
-						<div style="width: 32%; margin: 0 2%; height: 200px; background-color: yellow; float: right;">hi</div>
-									<div style="width: 32%; height: 200px; background-color: yellow; float: right;">hi</div>	
+				<div class="studio-pic">
 
-			<div class="clearfix"></div>
+					hi
+
+				</div><!-- studio pic -->
+
+				<div class="studio-pic">
+
+					hi
+
+				</div><!-- studio pic -->
+
+				<div class="studio-pic">
+
+					hi
+
+				</div><!-- studio pic -->
+
+				<div class="studio-pic">
+
+					hi
+
+				</div><!-- studio pic -->
+
+				<div class="studio-pic">
+
+					hi
+
+				</div><!-- studio pic -->
+
+				<div class="studio-pic">
+
+					hi
+
+				</div><!-- studio pic -->
+
+				<div class="studio-pic">
+
+					hi
+
+				</div><!-- studio pic -->
+
+				<div class="studio-pic">
+
+					hi
+
+				</div><!-- studio pic -->
+
+				<div class="studio-pic">
+
+					hi
+
+				</div><!-- studio pic -->
+
+			</div><!-- studio pic container -->
 
 		</div><!-- content wrapper -->
 

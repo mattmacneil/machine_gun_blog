@@ -10,7 +10,6 @@
 				$hero_trans_class = "hero-transparent";
 			}
 					else $hero_trans_class = "";
-
 		?>
 
 		<div class="hero-overlay <?php echo $hero_trans_class; ?>">

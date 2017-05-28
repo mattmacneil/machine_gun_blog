@@ -353,8 +353,8 @@ input, select {
   font-family: 'headlinefont-it';
   src: url("assets/fonts/Roboto-BlackItalic.ttf"); }
 @font-face {
-  font-family: 'fontname';
-  src: url("../../fonts/font.ttf"); }
+  font-family: 'cursivefont';
+  src: url("assets/fonts/rocksalt.ttf"); }
 .nav-container {
   width: 100%;
   position: absolute;
@@ -771,12 +771,11 @@ nav {
 
 .contact-hl-signature {
   width: 100%;
-  background-color: orange;
   text-align: right;
   margin-top: 2em; }
   .contact-hl-signature span {
     font-size: 2.5em;
-    font-family: cursive;
+    font-family: "cursivefont", cursive;
     line-height: 1;
     display: inline-block;
     margin-bottom: .25em; }
@@ -861,7 +860,7 @@ nav {
   .hero-content-innerpad {
     padding-left: 0;
     margin-left: 0;
-    padding-right: 0;
+    padding-right: 2em;
     width: 100%; }
 
   .hero-underbar {

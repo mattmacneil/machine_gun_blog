@@ -429,6 +429,13 @@
 		color: $orange;
 		background-color: $lightblue;
 		text-transform: lowercase;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $orange;
+			color: $white;
+			@include fader;
+		}
 	}
 }
 

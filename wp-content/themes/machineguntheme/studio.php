@@ -18,55 +18,154 @@
 
 				<div class="studio-pic">
 
-					hi
+					<a href="" class="noline">
+					<div class="studio-pic-overlay">
+
+						<div class="studio-pic-icon">
+						</div><!-- studio pic icon -->
+
+						<div class="studio-pic-title">
+							The Title
+						</div><!-- studio pic title -->
+
+					</div><!-- studio pic overlay -->
+					</a>
 
 				</div><!-- studio pic -->
 
 				<div class="studio-pic">
 
-					hi
+					<a href="" class="noline">
+					<div class="studio-pic-overlay">
+
+						<div class="studio-pic-icon">
+						</div><!-- studio pic icon -->
+
+						<div class="studio-pic-title">
+							The Title
+						</div><!-- studio pic title -->
+
+					</div><!-- studio pic overlay -->
+					</a>
 
 				</div><!-- studio pic -->
 
 				<div class="studio-pic">
 
-					hi
+					<a href="" class="noline">
+					<div class="studio-pic-overlay">
+
+						<div class="studio-pic-icon">
+						</div><!-- studio pic icon -->
+
+						<div class="studio-pic-title">
+							The Title
+						</div><!-- studio pic title -->
+
+					</div><!-- studio pic overlay -->
+					</a>
 
 				</div><!-- studio pic -->
 
 				<div class="studio-pic">
 
-					hi
+					<a href="" class="noline">
+					<div class="studio-pic-overlay">
+
+						<div class="studio-pic-icon">
+						</div><!-- studio pic icon -->
+
+						<div class="studio-pic-title">
+							The Title
+						</div><!-- studio pic title -->
+
+					</div><!-- studio pic overlay -->
+					</a>
 
 				</div><!-- studio pic -->
 
 				<div class="studio-pic">
 
-					hi
+					<a href="" class="noline">
+					<div class="studio-pic-overlay">
+
+						<div class="studio-pic-icon">
+						</div><!-- studio pic icon -->
+
+						<div class="studio-pic-title">
+							The Title
+						</div><!-- studio pic title -->
+
+					</div><!-- studio pic overlay -->
+					</a>
 
 				</div><!-- studio pic -->
 
 				<div class="studio-pic">
 
-					hi
+					<a href="" class="noline">
+					<div class="studio-pic-overlay">
+
+						<div class="studio-pic-icon">
+						</div><!-- studio pic icon -->
+
+						<div class="studio-pic-title">
+							The Title
+						</div><!-- studio pic title -->
+
+					</div><!-- studio pic overlay -->
+					</a>
 
 				</div><!-- studio pic -->
 
 				<div class="studio-pic">
 
-					hi
+					<a href="" class="noline">
+					<div class="studio-pic-overlay">
+
+						<div class="studio-pic-icon">
+						</div><!-- studio pic icon -->
+
+						<div class="studio-pic-title">
+							The Title
+						</div><!-- studio pic title -->
+
+					</div><!-- studio pic overlay -->
+					</a>
 
 				</div><!-- studio pic -->
 
 				<div class="studio-pic">
 
-					hi
+					<a href="" class="noline">
+					<div class="studio-pic-overlay">
+
+						<div class="studio-pic-icon">
+						</div><!-- studio pic icon -->
+
+						<div class="studio-pic-title">
+							The Title
+						</div><!-- studio pic title -->
+
+					</div><!-- studio pic overlay -->
+					</a>
 
 				</div><!-- studio pic -->
 
 				<div class="studio-pic">
 
-					hi
+					<a href="" class="noline">
+					<div class="studio-pic-overlay">
+
+						<div class="studio-pic-icon">
+						</div><!-- studio pic icon -->
+
+						<div class="studio-pic-title">
+							The Title
+						</div><!-- studio pic title -->
+
+					</div><!-- studio pic overlay -->
+					</a>
 
 				</div><!-- studio pic -->
 

@@ -772,7 +772,7 @@ nav {
 
 .studio-wrapper {
   width: 100%;
-  padding: 3em 0; }
+  padding: 3em 0 2em 0; }
 
 .studio-padding {
   padding-left: 16%;
@@ -782,14 +782,46 @@ nav {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background-color: orange;
   justify-content: space-between; }
 
 .studio-pic {
   width: 32%;
   height: 12em;
-  background-color: yellow;
-  margin-bottom: 1em; }
+  background-color: rgba(34, 83, 120, 0.25);
+  margin-bottom: 1em;
+  margin-bottom: 1.5vw;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  border-radius: 0.25em; }
+
+.studio-pic-overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  border-radius: 0.25em;
+  background-image: url("assets/images/stripe.png"); }
+
+.studio-pic-icon {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  background-image: url("assets/images/studio-pic-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.studio-pic-title {
+  position: absolute;
+  left: 1em;
+  bottom: 1em;
+  color: #f3ffe2;
+  text-shadow: #0c1f2d 1px 0 15px;
+  font-family: "headlinefont", Gadget, sans-serif; }
 
 .contact-hl-signature {
   width: 100%;
@@ -914,7 +946,11 @@ nav {
     display: none; }
 
   .col-content-two {
-    width: 62.25%; } }
+    width: 62.25%; }
+
+  .studio-padding {
+    padding-left: 5%;
+    padding-right: 5%; } }
 @media screen and (max-width: 775px) {
   .doubleside {
     background: transparent; }

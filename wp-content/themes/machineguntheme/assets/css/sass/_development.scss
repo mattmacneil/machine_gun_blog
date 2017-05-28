@@ -374,7 +374,7 @@
 
 .studio-wrapper {
 	width: 100%;
-	padding: 3em 0;
+	padding: 3em 0 2em 0;
 }
 
 	.studio-padding {
@@ -386,16 +386,45 @@
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
-		background-color: orange;
 		justify-content: space-between;
 	}
 
 		.studio-pic {
 			width: 32%;
 			height: 12em;
-			background-color: yellow;
+			background-color: rgba($darkblue, .25);
 			margin-bottom: 1em;
+			margin-bottom: 1.5vw;
+			@include rounded(.25em);
 		}
+
+			.studio-pic-overlay {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				@include rounded(.25em);
+				background-image: url('assets/images/stripe.png');
+			}
+
+				.studio-pic-icon {
+					width: 1em;
+					height: 1em;
+					position: absolute;
+					right: 1em;
+					top: 1em;
+					background-image: url('assets/images/studio-pic-icon.png');
+					background-size: contain;
+					background-repeat: no-repeat;
+				}
+
+				.studio-pic-title {
+					position: absolute;
+					left: 1em;
+					bottom: 1em;
+					color: $white;
+					@include texthaze($black);
+					font-family: $headline-font;
+				}
 
 .contact-hl-signature {
 	width: 100%;

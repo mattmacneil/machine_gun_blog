@@ -834,7 +834,8 @@ nav {
   -ms-border-radius: 0.25em;
   border-radius: 0.25em;
   background-image: url("assets/images/stripe.png");
-  background-color: rgba(45, 110, 160, 0.2); }
+  background-color: rgba(45, 110, 160, 0.2);
+  cursor: zoom-in; }
   .studio-pic-overlay:hover {
     background-color: rgba(45, 110, 160, 0.05);
     -khtml-transition: all 0.3s;
@@ -873,6 +874,9 @@ nav {
 .studio-pic-overlay-text {
   background-color: transparent;
   background-image: none; }
+  .studio-pic-text:hover,
+  .studio-pic-overlay-text:hover {
+    background-color: transparent; }
 
 .studio-map-wrap {
   width: 100%; }

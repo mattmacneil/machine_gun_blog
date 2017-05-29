@@ -422,6 +422,7 @@
 				@include rounded(.25em);
 				background-image: url('assets/images/stripe.png');
 				background-color: rgba($blue, .2);
+				cursor: zoom-in;
 
 				&:hover {
 					background-color: rgba($blue, .05);
@@ -462,6 +463,10 @@
 					.studio-pic-overlay-text {
 						background-color: transparent;
 						background-image: none;
+
+						&:hover {
+							 background-color: transparent;
+						}
 					}
 
 	.studio-map-wrap {

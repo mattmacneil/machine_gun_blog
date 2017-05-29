@@ -18,14 +18,14 @@
 
 				<div class="studio-pic studio-pic-1">
 
-					<a href="" class="noline">
+					<a href="<?php echo bloginfo('template_url'); ?>/assets/images/studio-pic-1.jpg" class="noline">
 					<div class="studio-pic-overlay">
 
 						<div class="studio-pic-icon">
 						</div><!-- studio pic icon -->
 
 						<div class="studio-pic-title">
-							The Title
+							From Drum Area
 						</div><!-- studio pic title -->
 
 					</div><!-- studio pic overlay -->
@@ -35,14 +35,14 @@
 
 				<div class="studio-pic studio-pic-2">
 
-					<a href="" class="noline">
+					<a href="<?php echo bloginfo('template_url'); ?>/assets/images/studio-pic-2.jpg" class="noline">
 					<div class="studio-pic-overlay">
 
 						<div class="studio-pic-icon">
 						</div><!-- studio pic icon -->
 
 						<div class="studio-pic-title">
-							The Title
+							Strings
 						</div><!-- studio pic title -->
 
 					</div><!-- studio pic overlay -->
@@ -52,14 +52,14 @@
 
 				<div class="studio-pic studio-pic-3">
 
-					<a href="" class="noline">
+					<a href="<?php echo bloginfo('template_url'); ?>/assets/images/studio-pic-3.jpg" class="noline">
 					<div class="studio-pic-overlay">
 
 						<div class="studio-pic-icon">
 						</div><!-- studio pic icon -->
 
 						<div class="studio-pic-title">
-							The Title
+							Ludwig Kit
 						</div><!-- studio pic title -->
 
 					</div><!-- studio pic overlay -->
@@ -69,14 +69,14 @@
 
 				<div class="studio-pic studio-pic-4">
 
-					<a href="" class="noline">
+					<a href="<?php echo bloginfo('template_url'); ?>/assets/images/studio-pic-4.jpg" class="noline">
 					<div class="studio-pic-overlay">
 
 						<div class="studio-pic-icon">
 						</div><!-- studio pic icon -->
 
 						<div class="studio-pic-title">
-							The Title
+							Central
 						</div><!-- studio pic title -->
 
 					</div><!-- studio pic overlay -->
@@ -98,14 +98,14 @@
 
 				<div class="studio-pic studio-pic-5">
 
-					<a href="" class="noline">
+					<a href="<?php echo bloginfo('template_url'); ?>/assets/images/studio-pic-5.jpg" class="noline">
 					<div class="studio-pic-overlay">
 
 						<div class="studio-pic-icon">
 						</div><!-- studio pic icon -->
 
 						<div class="studio-pic-title">
-							The Title
+							Lounge Act
 						</div><!-- studio pic title -->
 
 					</div><!-- studio pic overlay -->
@@ -115,14 +115,14 @@
 
 				<div class="studio-pic studio-pic-6">
 
-					<a href="" class="noline">
+					<a href="<?php echo bloginfo('template_url'); ?>/assets/images/studio-pic-6.jpg" class="noline">
 					<div class="studio-pic-overlay">
 
 						<div class="studio-pic-icon">
 						</div><!-- studio pic icon -->
 
 						<div class="studio-pic-title">
-							The Title
+							Live Room
 						</div><!-- studio pic title -->
 
 					</div><!-- studio pic overlay -->
@@ -132,14 +132,14 @@
 
 				<div class="studio-pic studio-pic-7">
 
-					<a href="" class="noline">
+					<a href="<?php echo bloginfo('template_url'); ?>/assets/images/studio-pic-7.jpg" class="noline">
 					<div class="studio-pic-overlay">
 
 						<div class="studio-pic-icon">
 						</div><!-- studio pic icon -->
 
 						<div class="studio-pic-title">
-							The Title
+							Drum Area Right
 						</div><!-- studio pic title -->
 
 					</div><!-- studio pic overlay -->
@@ -149,14 +149,14 @@
 
 				<div class="studio-pic studio-pic-8">
 
-					<a href="" class="noline">
+					<a href="<?php echo bloginfo('template_url'); ?>/assets/images/studio-pic-8.jpg" class="noline">
 					<div class="studio-pic-overlay">
 
 						<div class="studio-pic-icon">
 						</div><!-- studio pic icon -->
 
 						<div class="studio-pic-title">
-							The Title
+							The Helm
 						</div><!-- studio pic title -->
 
 					</div><!-- studio pic overlay -->

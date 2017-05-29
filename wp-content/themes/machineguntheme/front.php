@@ -117,7 +117,7 @@
 
 					<span class="header">In-Studio:</span>
 
-					<div class="front-services-container">
+					<div class="front-services-container" style="margin-bottom: 0;">
 
 						<div class="front-services-cell">
 							<a href="studio" class="noline">

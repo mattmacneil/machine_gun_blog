@@ -4,7 +4,7 @@
 		$studio_trans = NULL;
 
 			if ($checkstudio_slug == "studio") {
-				$studio_trans = "background-color: rgba(34, 83, 120, 0.3);";
+				$studio_trans = "background-color: rgba(34, 83, 120, 0.4);";
 			}
 					else $studio_trans = NULL;
 		?>

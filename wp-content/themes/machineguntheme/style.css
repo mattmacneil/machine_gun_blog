@@ -489,6 +489,11 @@ nav {
 .no-pad {
   padding: 0 !important; }
 
+.secondary {
+  font-family: "headlinefont", Gadget, sans-serif;
+  font-size: 1.1em;
+  color: #225378; }
+
 .hero {
   width: 100%;
   background-color: #225378;
@@ -806,8 +811,8 @@ nav {
   background-image: url("assets/images/stripe.png"); }
 
 .studio-pic-icon {
-  width: 1em;
-  height: 1em;
+  width: .75em;
+  height: .75em;
   position: absolute;
   right: 1em;
   top: 1em;

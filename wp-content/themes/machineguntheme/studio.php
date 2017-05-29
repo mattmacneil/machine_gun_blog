@@ -166,6 +166,8 @@
 
 			</div><!-- studio pic container -->
 
+			<span class="secondary">Location:</span>
+
 		</div><!-- content wrapper -->
 
 	</div><!-- doubleside -->

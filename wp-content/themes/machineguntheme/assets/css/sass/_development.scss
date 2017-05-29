@@ -19,6 +19,12 @@
 		padding: 0 !important;
 	}
 
+.secondary {
+	font-family: $headline-font;
+	font-size: 1.1em;
+	color: $darkblue;
+}
+
 .hero {
 	width: 100%;
 	background-color: $darkblue;
@@ -407,8 +413,8 @@
 			}
 
 				.studio-pic-icon {
-					width: 1em;
-					height: 1em;
+					width: .75em;
+					height: .75em;
 					position: absolute;
 					right: 1em;
 					top: 1em;

@@ -545,7 +545,7 @@ nav {
 .hero-burst {
   position: absolute;
   left: -15em;
-  top: -3em;
+  top: -2em;
   background-image: url("assets/images/hero-content-bg.png");
   background-size: cover;
   width: 14em;
@@ -553,11 +553,11 @@ nav {
 
 .hero-snipe {
   position: absolute;
-  left: -7em;
+  left: -6em;
   top: 3.5em;
   z-index: 9999;
-  height: 5em;
-  width: 5em;
+  height: 4em;
+  width: 4em;
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: left; }
@@ -568,6 +568,15 @@ nav {
   top: 1em; }
   .landing-bars img {
     height: 1.5em; }
+
+.hero-transparent .hero-stuff {
+  background: none; }
+.hero-transparent .hero-col-content-one {
+  background-color: transparent; }
+.hero-transparent .hero-col-content-two {
+  background-color: transparent;
+  color: #f3ffe2;
+  text-shadow: #0c1f2d 1px 0 15px; }
 
 .hero-overlay {
   width: 100%;
@@ -650,13 +659,6 @@ nav {
   bottom: -2em;
   z-index: 1;
   background: linear-gradient(to right, #f3ffe2 64%, transparent 36%); }
-
-.hero-transparent .hero-container {
-  background: transparent;
-  color: #f3ffe2;
-  text-shadow: #0c1f2d 1px 0 15px; }
-.hero-transparent .hero-underbar {
-  background: transparent; }
 
 .doubleside {
   width: 100%;

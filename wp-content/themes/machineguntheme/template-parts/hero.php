@@ -1,3 +1,61 @@
+<div class="hero">
+
+	<div class="hero-overlay">
+
+		<div class="nav-blocker"></div><!-- nav blocker -->
+
+		<div class="hero-stuff">
+
+			<div class="content-wrapper">
+
+				<div class="col-content">
+
+					<div class="hero-col-content-one">
+
+					</div><!-- col content one -->
+
+					<div class="hero-col-content-two">
+
+						<?php 
+
+							if ( is_front_page() ) {	
+								echo '<img src="';
+								echo bloginfo('template_url');
+								echo '/assets/images/landing-bars.gif">'; 
+   						}
+
+							$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
+							if( ! empty( $pageheadline ) ) {
+								echo '<h1>' . $pageheadline . '</h1>';
+							}
+								else {
+									echo '<h1>All The Latest From Machine Gun Studios.</h1>';
+								}
+
+							$herotext = get_post_meta( get_the_ID(), 'herotext', true);
+							if( ! empty( $herotext ) ) {
+								echo '<p>' . $herotext . '</p>';
+							}
+								else {
+									echo 'Something something is a thing.';
+								}
+						?>
+
+					</div><!-- col content two -->
+
+				</div><!-- col content -->
+
+			</div><!-- content wrapper -->
+
+		</div><!-- hero stuff -->
+
+	</div><!-- hero overlay -->
+
+</div><!-- hero -->
+
+
+
+
 		<?php
 
 		$checkstudio_slug = basename(get_permalink());

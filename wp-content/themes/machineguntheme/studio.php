@@ -195,13 +195,13 @@
 					<p>
 					<span class="secondary">Transportation:</span><br />
 
-					By car, we're located within 15 minutes of a handful of Boston-area interstates. Guest parking spots are available on the street. When coming by rail and most bus lines, Forest Hills is a walkable nearby transportation hub. The studio is located ~5 miles from Downtown Boston.
+					By car, we&rsquo;re located within 15 minutes of a handful of Boston-area interstates. Guest parking spots are available on the street. When coming by rail and most bus lines, Forest Hills is a walkable nearby transportation hub. The studio is located ~5 miles from Downtown Boston.
 					</p>
 
 					<p>
 					<span class="secondary">Availability & Hours:</span><br />
 
-					Your recording time will be split into multiple tracking sessions in most cases. To accomodate all of those who are contributing, we have flexible scheduling with slots available weekday mornings and afternoons. At this time there are no "drop-in" hours for mixing or any other services (sorry!) - all times are arranged and agreed upon 5+ days prior to a session.
+					Your recording time will be split into multiple tracking sessions in most cases. To accomodate all of those who are contributing, we have flexible scheduling with slots available weekday mornings and afternoons. At this time there are no &quot;drop-in&quot; hours for mixing or any other services (sorry!) - all times are arranged and agreed upon 5+ days prior to a session.
 					</p>
 
 				</div><!-- col content two -->
@@ -230,7 +230,8 @@
           zoom: 15,
           mapTypeControl: false,
           zoomControl: false,
-          scaleControl: true,
+          scaleControl: false,
+          draggable: false,
           streetViewControl: false,
           fullscreenControl: false,
 

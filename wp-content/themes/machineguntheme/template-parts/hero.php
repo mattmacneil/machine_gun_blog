@@ -88,11 +88,11 @@
 
 		</div><!-- hero stuff -->
 
-		<div class="hero-underbar <?php echo $hero_trans_class; ?>">
+		<div class="hero-underbar">
 
 			<div class="content-wrapper">
 
-				<div class="hero-underbar-color <?php echo $hero_trans_class; ?>">
+				<div class="hero-underbar-color">
 				</div><!-- hero underbar color -->
 
 			</div><!-- content wrapper -->

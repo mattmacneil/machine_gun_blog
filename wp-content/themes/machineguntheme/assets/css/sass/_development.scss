@@ -180,7 +180,6 @@
 
 				}	
 
-
 	.doubleside {
 		width: 100%;
 		background: linear-gradient(to left, $blue 39%, transparent 36%); 
@@ -497,6 +496,7 @@
 					.studio-pic-overlay-text {
 						background-color: transparent;
 						background-image: none;
+						cursor: auto;
 
 						&:hover {
 							 background-color: transparent;

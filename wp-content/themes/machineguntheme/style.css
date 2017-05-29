@@ -895,7 +895,8 @@ nav {
 .studio-pic-text,
 .studio-pic-overlay-text {
   background-color: transparent;
-  background-image: none; }
+  background-image: none;
+  cursor: auto; }
   .studio-pic-text:hover,
   .studio-pic-overlay-text:hover {
     background-color: transparent; }
@@ -1085,5 +1086,9 @@ nav {
 
   .studio-pic-text {
     width: 100%; } }
+@media screen and (min-width: 1800px) {
+  .contact-side {
+    width: 320%;
+    width: 50vw; } }
 
 /*# sourceMappingURL=style.css.map */

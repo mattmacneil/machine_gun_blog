@@ -86,13 +86,11 @@
 
 				<div class="studio-pic studio-pic-text">
 
-					<a href="" class="noline">
 					<div class="studio-pic-overlay studio-pic-overlay-text">
 
 						Pictures can only say so much - the spirit and soul of Machine Gun Studios must be experienced live. <a href="contact">Contact me</a> to set up a time.
 
 					</div><!-- studio pic overlay -->
-					</a>
 
 				</div><!-- studio pic -->
 

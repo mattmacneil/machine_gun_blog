@@ -58,6 +58,16 @@
 
 @media screen and (max-width: 775px){
 
+	.hero-col-content-two {
+		width: 95%;
+		padding-right: 5%;
+		padding-top: 2em;
+
+		&:after {
+			background-color: transparent;
+		}
+	}
+
 	.doubleside {
 		background: transparent;
 	}

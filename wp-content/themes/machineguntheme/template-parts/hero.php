@@ -16,13 +16,19 @@
 
 					<div class="hero-col-content-two">
 
-						<?php 
+						<div class="hero-burst">
 
+							HI
+
+						</div><!-- hero burst -->
+
+						<?php 
+/*
 							if ( is_front_page() ) {	
 								echo '<img src="';
 								echo bloginfo('template_url');
 								echo '/assets/images/landing-bars.gif">'; 
-   						}
+   						} */
 
 							$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
 							if( ! empty( $pageheadline ) ) {

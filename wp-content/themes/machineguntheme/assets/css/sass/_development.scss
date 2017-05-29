@@ -68,12 +68,14 @@
 		.hero-col-content-one {
 			width: 12%;
 			background-color: $white;
+			overflow: visible;
+			position: relative;
 		}
 
 		.hero-col-content-two {
 			width: 50.25%;
 			background-color: $white;
-			padding: 3em 0 2em 0;
+			padding: 3em 0;
 			position: relative;
 
 			&:after {
@@ -87,7 +89,15 @@
 			}
 		}
 
-
+			.hero-burst {
+				position: absolute;
+				left: -15em;
+				top: -3em;
+				background-image: url('assets/images/hero-content-bg.png');
+				background-size: cover;
+				width: 14em;
+				height: 14em;
+			}
 
 
 

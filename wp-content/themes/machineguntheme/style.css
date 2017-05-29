@@ -526,12 +526,14 @@ nav {
 
 .hero-col-content-one {
   width: 12%;
-  background-color: #f3ffe2; }
+  background-color: #f3ffe2;
+  overflow: visible;
+  position: relative; }
 
 .hero-col-content-two {
   width: 50.25%;
   background-color: #f3ffe2;
-  padding: 3em 0 2em 0;
+  padding: 3em 0;
   position: relative; }
   .hero-col-content-two:after {
     content: "";
@@ -541,6 +543,15 @@ nav {
     top: 0;
     bottom: 0;
     background-color: inherit; }
+
+.hero-burst {
+  position: absolute;
+  left: -15em;
+  top: -3em;
+  background-image: url("assets/images/hero-content-bg.png");
+  background-size: cover;
+  width: 14em;
+  height: 14em; }
 
 .hero-overlay {
   width: 100%;
@@ -1066,6 +1077,13 @@ nav {
     padding-left: 5%;
     padding-right: 5%; } }
 @media screen and (max-width: 775px) {
+  .hero-col-content-two {
+    width: 95%;
+    padding-right: 5%;
+    padding-top: 2em; }
+    .hero-col-content-two:after {
+      background-color: transparent; }
+
   .doubleside {
     background: transparent; }
 

@@ -507,8 +507,6 @@ nav {
   width: 100%;
   margin-top: 10em;
   background: linear-gradient(to right, #f3ffe2 50%, transparent 36%); }
-  .hero-stuff img {
-    height: 1.5em; }
   .hero-stuff h1 {
     font-size: 2em;
     font-weight: bold;
@@ -552,6 +550,24 @@ nav {
   background-size: cover;
   width: 14em;
   height: 14em; }
+
+.hero-snipe {
+  position: absolute;
+  left: -7em;
+  top: 3.5em;
+  z-index: 9999;
+  height: 5em;
+  width: 5em;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left; }
+
+.landing-bars {
+  position: absolute;
+  left: 0;
+  top: 1em; }
+  .landing-bars img {
+    height: 1.5em; }
 
 .hero-overlay {
   width: 100%;

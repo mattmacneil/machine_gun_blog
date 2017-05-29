@@ -379,7 +379,7 @@
 
 .studio-wrapper {
 	width: 100%;
-	padding: 3em 0 2em 0;
+	padding: 4em 0 3em 0;
 }
 
 	.studio-padding {
@@ -401,6 +401,18 @@
 			margin-bottom: 1em;
 			margin-bottom: 1.5vw;
 			@include rounded(.25em);
+			background-size: cover;
+			background-position: center center;
+		}
+
+		$studio-pic: 8;
+		@while $studio-pic > 0 {
+							
+			.studio-pic-#{$studio-pic}{
+				background-image: url('assets/images/studio-pic-#{$studio-pic}.jpg');
+			}
+
+			$studio-pic: $studio-pic - 1;
 		}
 
 			.studio-pic-overlay {
@@ -409,6 +421,12 @@
 				position: relative;
 				@include rounded(.25em);
 				background-image: url('assets/images/stripe.png');
+				background-color: rgba($blue, .2);
+
+				&:hover {
+					background-color: rgba($blue, .05);
+					@include fader;
+				}
 			}
 
 				.studio-pic-icon {
@@ -448,7 +466,6 @@
 
 	.studio-map-wrap {
 		width: 100%;
-		background-color: $white;
 
 		.secondary {
 			display: inline-block;

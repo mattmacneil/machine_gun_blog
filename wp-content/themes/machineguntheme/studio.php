@@ -16,7 +16,7 @@
 
 			<div class="studio-pic-container">
 
-				<div class="studio-pic">
+				<div class="studio-pic studio-pic-1">
 
 					<a href="" class="noline">
 					<div class="studio-pic-overlay">
@@ -33,7 +33,7 @@
 
 				</div><!-- studio pic -->
 
-				<div class="studio-pic">
+				<div class="studio-pic studio-pic-2">
 
 					<a href="" class="noline">
 					<div class="studio-pic-overlay">
@@ -50,7 +50,7 @@
 
 				</div><!-- studio pic -->
 
-				<div class="studio-pic">
+				<div class="studio-pic studio-pic-3">
 
 					<a href="" class="noline">
 					<div class="studio-pic-overlay">
@@ -67,7 +67,7 @@
 
 				</div><!-- studio pic -->
 
-				<div class="studio-pic">
+				<div class="studio-pic studio-pic-4">
 
 					<a href="" class="noline">
 					<div class="studio-pic-overlay">
@@ -96,7 +96,7 @@
 
 				</div><!-- studio pic -->
 
-				<div class="studio-pic">
+				<div class="studio-pic studio-pic-5">
 
 					<a href="" class="noline">
 					<div class="studio-pic-overlay">
@@ -113,7 +113,7 @@
 
 				</div><!-- studio pic -->
 
-				<div class="studio-pic">
+				<div class="studio-pic studio-pic-6">
 
 					<a href="" class="noline">
 					<div class="studio-pic-overlay">
@@ -130,7 +130,7 @@
 
 				</div><!-- studio pic -->
 
-				<div class="studio-pic">
+				<div class="studio-pic studio-pic-7">
 
 					<a href="" class="noline">
 					<div class="studio-pic-overlay">
@@ -147,7 +147,7 @@
 
 				</div><!-- studio pic -->
 
-				<div class="studio-pic">
+				<div class="studio-pic studio-pic-8">
 
 					<a href="" class="noline">
 					<div class="studio-pic-overlay">
@@ -170,20 +170,19 @@
 
 	</div><!-- doubleside -->
 
-
 	<div class="studio-map-wrap">
 
 		<div class="content-wrapper">
 
 			<div class="col-content">
 
-				<div class="col-content-one">
+				<div class="col-content-one no-top-pad">
 
 					<span>&raquo;</span>
 
 				</div><!-- one -->
 
-				<div class="col-content-two">
+				<div class="col-content-two no-top-pad">
 
 					<span class="header">About the Studio:</span><br />
 
@@ -204,7 +203,6 @@
 
 					Your recording time will be split into multiple tracking sessions in most cases. To accomodate all of those who are contributing, we have flexible scheduling with slots available weekday mornings and afternoons. At this time there are no "drop-in" hours for mixing or any other services (sorry!) - all times are arranged and agreed upon 5+ days prior to a session.
 					</p>
-
 
 				</div><!-- col content two -->
 

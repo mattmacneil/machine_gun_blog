@@ -478,6 +478,23 @@
 		}
 	}
 
+.gearlist-ul {
+	margin: .75em 0 2em 0;
+	list-style: none;
+
+	li:before {
+    content: '\25A0';
+    display: block;
+    position: relative;
+    max-width: 0px;
+    max-height: 0px;
+    left: -1em;
+    top: .1em;
+    color: silver;
+    font-size: .75em;
+  }
+}
+
 .contact-hl-signature {
 	width: 100%;
 	text-align: right;

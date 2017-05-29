@@ -578,6 +578,29 @@ nav {
   .landing-bars img {
     height: 1.5em; }
 
+.hero-underbar {
+  width: 100%;
+  height: 2em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2em;
+  background: linear-gradient(to right, #f3ffe2 50%, transparent 36%); }
+
+.hero-underbar-color {
+  width: 61%;
+  height: 2em;
+  background-color: #f3ffe2;
+  position: relative; }
+  .hero-underbar-color:after {
+    content: "";
+    position: absolute;
+    width: 3em;
+    right: -3em;
+    top: 0;
+    bottom: 0;
+    background-color: inherit; }
+
 .hero-transparent .hero-stuff {
   background: none; }
 .hero-transparent .hero-col-content-one {
@@ -586,6 +609,10 @@ nav {
   background-color: transparent;
   color: #f3ffe2;
   text-shadow: #0c1f2d 1px 0 15px; }
+.hero-transparent .hero-underbar {
+  background: none; }
+.hero-transparent .hero-underbar-color {
+  background-color: transparent; }
 
 .doubleside {
   width: 100%;

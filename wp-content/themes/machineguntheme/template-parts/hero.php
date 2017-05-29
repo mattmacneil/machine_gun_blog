@@ -76,7 +76,7 @@
 								echo '<p>' . $herotext . '</p>';
 							}
 								else {
-									echo 'Something something is a thing.';
+									echo 'Machine Gun Studios: The Name Only *Implies* That I&rsquo;m Armed...';
 								}
 						?>
 
@@ -87,6 +87,17 @@
 			</div><!-- content wrapper -->
 
 		</div><!-- hero stuff -->
+
+		<div class="hero-underbar <?php echo $hero_trans_class; ?>">
+
+			<div class="content-wrapper">
+
+				<div class="hero-underbar-color <?php echo $hero_trans_class; ?>">
+				</div><!-- hero underbar color -->
+
+			</div><!-- content wrapper -->
+
+		</div><!-- hero underbar -->
 
 	</div><!-- hero overlay -->
 

@@ -33,6 +33,16 @@
 	background-position: center center;
 }
 
+	.hero-overlay {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		background-image: url('assets/images/hero-overlay.png');
+		background-color: rgba($darkblue, .65);
+		background-size: cover;
+		background-position: center center;
+	}
+
 	.hero-stuff {
 		width: 100%;
 		margin-top: 10em;
@@ -133,115 +143,7 @@
 						@include texthaze($black);
 					}
 
-				}
-
-
-
-
-
-	.hero-overlay {
-		width: 100%;
-		height: 100%;
-		position: relative;
-		background-image: url('assets/images/hero-overlay.png');
-		background-color: rgba($darkblue, .65);
-		background-size: cover;
-		background-position: center center;
-	}
-
-		.hero-container {
-			width: 100%;
-			overflow: visible;
-			margin-top: 7em;
-			background: linear-gradient(to right, $white 64%, transparent 36%); 
-			position: relative;
-		}
-
-				.hero-content-pad {
-					padding-top: 3em;
-					position: relative;
-					width: 100%;
-				}
-
-					.hero-content-snipe {
-						position: absolute;
-						left: 5%;
-						top: 3.5em;
-						z-index: 9999;
-						height: 5em;
-						width: 5em;
-						background-size: auto 100%;
-						background-repeat: no-repeat;
-						background-position: left;
-					}
-
-				.hero-content-innerpad {
-					padding-left: 12%;
-					padding-right: 3em;
-					padding-bottom: 3em;
-					width: 65.5%;
-					position: relative;
-
-					img {
-						height: 1.5em;
-					}
-
-					h1{
-						font-size: 2em;
-						font-weight: bold;
-						margin-bottom: .75em;
-						text-transform: uppercase;
-						font-family: $headline-font;
-
-						span {
-							font-family: 'headlinefont-it';
-						}
-					}
-
-					p {
-						line-height: 1.25;
-						margin-bottom: .5em;
-						text-align: justify;
-					}
-
-					p:last-of-type {
-						margin-bottom: 0em;
-					}
-
-						@media screen and (min-width: 3000px){
-							width: 80%
-						}
-
-						@media screen and (min-width: 4000px){
-							width: 90%
-						}
-
-						@media screen and (min-width: 4500px){
-							width: 100%
-						}
-				}
-
-					.hero-content-bg {
-						position: absolute;
-						left: -8em;
-						top: -4em;
-						background-image: url('assets/images/hero-content-bg.png');
-						background-size: cover;
-						width: 14em;
-						height: 14em;
-					}
-
-			.hero-underbar {
-				width: 100%;
-				height: 2em;
-				position: absolute;
-				left: 0;
-				bottom: -2em;
-				z-index: 1;
-				background: linear-gradient(to right, $white 64%, transparent 36%); 
-			}
-
-
+				}	
 
 	.doubleside {
 		width: 100%;

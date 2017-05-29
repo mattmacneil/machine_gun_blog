@@ -11,35 +11,28 @@
 
 @media screen and (max-width: 900px){
 
-	.hero-container {
-		background: linear-gradient(to right, $white 95%, transparent 36%);
-	}
-
-	.hero-content-innerpad {
-		padding-left: 0;
-		margin-left: 0;
-		padding-right: 2em;
-		width: 100%;
-	}
-
-	.hero-content-bg {
+	.hero-col-content-one {
 		display: none;
 	}
 
-	.hero-content-snipe {
-		left: 5%;
-		top: -2em;
-		height: 4em;
-		width: 4em;
-		background-color: $orange;
-		background-position: center center;
-		background-size: auto 50%;
-		border-radius: 50%;
-	}
+		.hero-col-content-two {
+			width: 62.25%;
+		}
 
-	.hero-underbar {
-		background: linear-gradient(to right, $white 95%, transparent 36%); 
-	}
+		.hero-burst {
+			display: none;
+		}
+
+		.hero-snipe {
+			width: 5em;
+			height: 5em;
+			left: 0;
+			background-color: $orange;
+			top: -3em;
+			background-size: auto 50%;
+			background-position: center center;
+			border-radius: 50%;
+		}
 
 	.col-content-one {
 		display: none;
@@ -66,6 +59,16 @@
 		&:after {
 			background-color: transparent;
 		}
+	}
+
+		.hero-snipe {
+			width: 4em;
+			height: 4em;
+			top: -2.75em;
+		}
+
+	.landing-bars {
+		top: 0;
 	}
 
 	.doubleside {

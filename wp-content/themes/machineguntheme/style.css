@@ -512,23 +512,23 @@ nav {
   background-size: cover;
   background-position: center center; }
 
-.hero-stuff {
+.hero-content {
   width: 100%;
   margin-top: 10em;
   background: linear-gradient(to right, #f3ffe2 50%, transparent 36%); }
-  .hero-stuff h1 {
+  .hero-content h1 {
     font-size: 2em;
     font-weight: bold;
     margin-bottom: .75em;
     text-transform: uppercase;
     font-family: "headlinefont", Gadget, sans-serif; }
-    .hero-stuff h1 span {
+    .hero-content h1 span {
       font-family: 'headlinefont-it'; }
-  .hero-stuff p {
+  .hero-content p {
     line-height: 1.25;
     margin-bottom: .5em;
     text-align: justify; }
-  .hero-stuff p:last-of-type {
+  .hero-content p:last-of-type {
     margin-bottom: 0em; }
 
 .hero-col-content-one {
@@ -601,7 +601,7 @@ nav {
     bottom: 0;
     background-color: inherit; }
 
-.hero-transparent .hero-stuff {
+.hero-transparent .hero-content {
   background: none; }
 .hero-transparent .hero-col-content-one {
   background-color: transparent; }
@@ -1084,6 +1084,11 @@ nav {
     width: 4em;
     height: 4em;
     top: -2.75em; }
+
+  .hero-underbar-color {
+    width: 90.6%; }
+    .hero-underbar-color:after {
+      background-color: transparent; }
 
   .landing-bars {
     top: 0; }

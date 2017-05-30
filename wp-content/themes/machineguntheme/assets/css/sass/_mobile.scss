@@ -67,6 +67,14 @@
 			top: -2.75em;
 		}
 
+		.hero-underbar-color {
+			width: 90.6%;
+
+			&:after {
+				background-color: transparent;
+			}
+		}
+
 	.landing-bars {
 		top: 0;
 	}

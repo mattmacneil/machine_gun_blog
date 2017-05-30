@@ -28,7 +28,7 @@
 
 		<div class="nav-blocker"></div><!-- nav blocker -->
 
-		<div class="hero-stuff">
+		<div class="hero-content">
 
 			<div class="content-wrapper">
 

@@ -4,6 +4,8 @@
 .newnav {
 	width: 100%;
 	padding-top: $nav-top-gap;
+	position: relative;
+	padding-bottom: $nav-top-gap;
 }
 
 	.nav-container {
@@ -181,6 +183,13 @@
 } // 800
 
 @media screen and (max-width: 775px){
+
+	.newnav {
+		background-image: url('assets/images/nav.png');
+		background-position: right bottom;
+		background-repeat:  no-repeat;
+		background-size: contain;
+	}
 
 	.nav-logo {
 		width: 50%;

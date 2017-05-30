@@ -357,7 +357,9 @@ input, select {
   src: url("assets/fonts/rocksalt.ttf"); }
 .newnav {
   width: 100%;
-  padding-top: 2em; }
+  padding-top: 2em;
+  position: relative;
+  padding-bottom: 2em; }
 
 .nav-container {
   width: 100%;
@@ -498,6 +500,12 @@ nav {
   .nav-logo-inner {
     background-size: auto 80%; } }
 @media screen and (max-width: 775px) {
+  .newnav {
+    background-image: url("assets/images/nav.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
   .nav-logo {
     width: 50%; }
     .nav-logo:after {

@@ -627,45 +627,50 @@
 	width: 100%;
 	background-color: $black;
 	color: $footerblue;
-	padding: 1.5em 5%;
+	padding: 1.5em 0;
 }
 	
-	.footer-logo {
-		width: 12%;
-		float: left;
-
-		img {
-			height: 2em;
-			display: block;
-		}
+	.footer-container {
+		width: 100%;
+		padding: 0 5%;
 	}
 
-	.footer-left-content {
-		font-size: .75em;
-		float: left;
-		width: 50.25%;
-	}
-
-		.footer-copy {
-			width: 42.5%;
+		.footer-logo {
+			width: 12%;
 			float: left;
+
+			img {
+				height: 2em;
+				display: block;
+			}
 		}
 
-		.footer-mail {
-			width: 57.5%;
+		.footer-left-content {
+			font-size: .75em;
 			float: left;
+			width: 50.25%;
 		}
 
-	.footer-right-content {
-		font-size: .75em;
-		float: right;
-		width: 37.5%;
-		text-align: right;
+			.footer-copy {
+				width: 42.5%;
+				float: left;
+			}
 
-		span {
-			font-style: italic;
+			.footer-mail {
+				width: 57.5%;
+				float: left;
+			}
+
+		.footer-right-content {
+			font-size: .75em;
+			float: right;
+			width: 37.5%;
+			text-align: right;
+
+			span {
+				font-style: italic;
+			}
 		}
-	}
 
 .grave {
 	width: 100%;

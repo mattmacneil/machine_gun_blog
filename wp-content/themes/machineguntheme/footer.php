@@ -49,39 +49,43 @@
 
 			<footer class="content-wrapper">
 
-				<div class="footer-logo">
+				<div class="footer-container">
 
-						<img src="<?php bloginfo('template_url'); ?>/assets/images/footer-logo.png" alt="Contact Machine Gun." /> 
+					<div class="footer-logo">
 
-				</div><!-- footer logo -->
+							<img src="<?php bloginfo('template_url'); ?>/assets/images/footer-logo.png" alt="Contact Machine Gun." /> 
 
-				<div class="footer-left-content">
+					</div><!-- footer logo -->
 
-					<div class="footer-copy">
+					<div class="footer-left-content">
 
-						&copy;2003&ndash;<?php the_time('Y'); ?><br />
-						<span>MGS / M. Irwin
+						<div class="footer-copy">
 
-					</div><!-- footer copy -->
+							&copy;2003&ndash;<?php the_time('Y'); ?><br />
+							<span>MGS / M. Irwin</span>
 
-					<div class="footer-mail">
+						</div><!-- footer copy -->
 
-						Taking Clients Now:<br />
-						<span>info&#64;&#109;a&#99;hinegu&#110;&#115;tu&#100;&#105;os&#46;com</span>
+						<div class="footer-mail">
 
-					</div><!-- footer mail -->
+							Taking Clients Now:<br />
+							<span>info&#64;&#109;a&#99;hinegu&#110;&#115;tu&#100;&#105;os&#46;com</span>
+
+						</div><!-- footer mail -->
+
+						<div class="clearfix"></div>
+
+					</div><!-- footer left content -->
+
+					<div class="footer-right-content">
+
+						&ldquo;&hellip;the name only <span>implies</span> that I&rsquo;m armed&hellip;&rdquo;
+
+					</div><!-- footer right content -->
 
 					<div class="clearfix"></div>
 
-				</div><!-- footer left content -->
-
-				<div class="footer-right-content">
-
-					&ldquo;&hellip;the name only <span>implies</span> that I&rsquo;m armed&hellip;&rdquo;
-
-				</div><!-- footer right content -->
-
-				<div class="clearfix"></div>
+				</div><!-- footer container -->
 
 			</footer><!-- content wrapper -->
 

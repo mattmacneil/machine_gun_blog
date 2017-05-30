@@ -1000,7 +1000,11 @@ nav {
   width: 100%;
   background-color: #0c1f2d;
   color: #3e586b;
-  padding: 1.5em 5%; }
+  padding: 1.5em 0; }
+
+.footer-container {
+  width: 100%;
+  padding: 0 5%; }
 
 .footer-logo {
   width: 12%;

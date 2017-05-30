@@ -47,31 +47,43 @@
 
 		<div class="footer-wrap">
 
-			<div class="content-wrapper">
+			<footer class="content-wrapper">
 
-				<div class="col-content">
-
-					<div class="col-content-one">
+				<div class="footer-logo">
 
 						<img src="<?php bloginfo('template_url'); ?>/assets/images/footer-logo.png" alt="Contact Machine Gun." /> 
 
-					</div><!-- col content one -->
+				</div><!-- footer logo -->
 
-					<div class="col-content-two">
+				<div class="footer-left-content">
 
-						hi
+					<div class="footer-copy">
 
-					</div><!-- col content two -->
+						&copy;2003&ndash;<?php the_time('Y'); ?><br />
+						<span>MGS / M. Irwin
 
-					<div class="col-content-three" style="background-color: transparent;">
+					</div><!-- footer copy -->
 
-						hi
+					<div class="footer-mail">
 
-					</div><!-- col content three -->
+						Taking Clients Now:<br />
+						<span>info&#64;&#109;a&#99;hinegu&#110;&#115;tu&#100;&#105;os&#46;com</span>
 
-				</div><!-- col content -->
+					</div><!-- footer mail -->
 
-			</div><!-- content wrapper -->
+					<div class="clearfix"></div>
+
+				</div><!-- footer left content -->
+
+				<div class="footer-right-content">
+
+					&hellip;the name only implies that I&rsquo;m armed&hellip;
+
+				</div><!-- footer right content -->
+
+				<div class="clearfix"></div>
+
+			</footer><!-- content wrapper -->
 
 		</div><!-- footer wrap -->
 

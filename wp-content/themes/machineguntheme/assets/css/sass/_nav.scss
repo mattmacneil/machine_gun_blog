@@ -96,7 +96,7 @@
 
 					.nav-contact {
 						float: right;
-						width: 12%;
+						width: 15%;
 						height: $nav-height;
 						display: table;
 					}
@@ -113,7 +113,7 @@
 							a {
 								width: 100%;
 								color: $orange;
-								background-color: rgba($black, .1);
+								background-color: rgba($darkblue, .3);
 								border: 1px solid $orange;
 								display: inline-block;
 								text-decoration: none;
@@ -154,139 +154,3 @@
 	width: 100%;
 	height: $nav-height + $nav-top-gap;
 }
-
-/*
-
-nav {
-	padding: $nav-top-gap 5% 0 5%;
-}
-
-	.nav-logo {
-		width: 12%;
-		float: left;
-		height: $nav-height;
-		position: relative;
-		background-position: center left;
-		background-size: auto $nav-height;
-		background-repeat: no-repeat;
-
-		&:after {
-			content: "";
-			position: absolute;
-			right: 1px;
-			top: 0;
-			bottom: 0;
-			background-color: rgba($white, .5);
-			width: 1px;
-		}
-
-		em{
-			display: none;
-		}
-
-		@media screen and (max-width: 900px){
-			background-size: auto 90%;
-			width: 15%;
-		}
-
-		@media screen and (max-width: 768px){
-			// hamburg sandwich
-		}
-	}
-
-	.machine-gun-menu{
-		@include texthaze($black);
-
-		.menu-aligner{
-			height: $nav-height;
-			display: table;
-			float: left;
-		}
-
-		li{
-			list-style: none;
-			display: table-cell;
-			vertical-align: middle;
-			height: 100%;
-			padding-right: 1.5em;
-
-			a {
-				text-decoration: none;
-				color: $white;
-
-				&:hover {
-					color: $orange;
-					@include fader;
-				}
-			}
-		}
-
-		li:first-of-type {
-			padding-left: 2em;
-		}
-
-		li:last-of-type {
-			padding-right: 0;
-		}
-	}
-
-	.nav-contact {
-		float: right;
-		width: 12%;
-		height: $nav-height;
-		display: table;
-
-		@media screen and (max-width: 900px){
-			width: 15%;
-		}		
-	}
-
-		.nav-contact-align {
-			width: 100%;
-			height: 100%;
-			display: table-cell;
-			vertical-align: middle;
-			text-align: center;
-
-			$contact-snipe-pad: 1.5em;
-
-			a {
-				width: 100%;
-				color: $orange;
-				background-color: rgba($black, .1);
-				border: 1px solid $orange;
-				display: inline-block;
-				text-decoration: none;
-				padding: .25em 0;
-				@include divshadow($darkblue);
-				position: relative;
-				padding-right: $contact-snipe-pad;
-				border-radius: .25em;
-				@include texthaze($black);
-
-				&:after{
-					content: "";
-					position: absolute;
-					right: 0;
-					top: 0;
-					bottom: 0;
-					width: $contact-snipe-pad;
-					background-color: $orange;
-					background-size: 1em auto;
-					background-position: center center;
-					background-repeat: no-repeat;
-					background-image: url('assets/images/nav-contact-align.png');
-					border-top-right-radius: .2em;
-					border-bottom-right-radius: .2em;
-					border: 1px solid $orange;
-				}
-
-				&:hover {
-					background-color: $orange;
-					color: $white;
-					@include fader;
-				}
-			}
-		}
-
-*/

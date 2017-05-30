@@ -1024,7 +1024,11 @@ nav {
 
 .footer-right-content {
   font-size: .75em;
-  float: right; }
+  float: right;
+  width: 37.5%;
+  text-align: right; }
+  .footer-right-content span {
+    font-style: italic; }
 
 .grave {
   width: 100%;
@@ -1100,7 +1104,28 @@ nav {
     margin-bottom: 3em; }
 
   .front-right-pic {
-    display: none; } }
+    display: none; }
+
+  .footer-logo {
+    width: 100%; }
+    .footer-logo img {
+      margin: 0 auto; }
+
+  .footer-left-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5em; }
+
+  .footer-copy {
+    width: 100%; }
+
+  .footer-mail {
+    display: none; }
+
+  .footer-right-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5em; } }
 @media screen and (max-width: 650px) {
   .studio-pic {
     width: 49%; }

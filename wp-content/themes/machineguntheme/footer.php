@@ -77,7 +77,7 @@
 
 				<div class="footer-right-content">
 
-					&hellip;the name only implies that I&rsquo;m armed&hellip;
+					&ldquo;&hellip;the name only <span>implies</span> that I&rsquo;m armed&hellip;&rdquo;
 
 				</div><!-- footer right content -->
 

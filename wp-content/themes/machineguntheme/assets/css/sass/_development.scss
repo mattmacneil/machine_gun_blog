@@ -659,6 +659,12 @@
 	.footer-right-content {
 		font-size: .75em;
 		float: right;
+		width: 37.5%;
+		text-align: right;
+
+		span {
+			font-style: italic;
+		}
 	}
 
 .grave {

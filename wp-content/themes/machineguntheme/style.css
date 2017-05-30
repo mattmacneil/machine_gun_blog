@@ -481,10 +481,69 @@ nav {
       -ms-transition: all 0.3s;
       transition: all 0.3s; }
 
+.nav-mobile-button {
+  display: none; }
+
 .nav-blocker {
   width: 100%;
   height: 5em; }
 
+@media screen and (max-width: 900px) {
+  .nav-logo-inner {
+    background-size: auto 90%; }
+
+  .nav-contact {
+    width: 18%; } }
+@media screen and (max-width: 800px) {
+  .nav-logo-inner {
+    background-size: auto 80%; } }
+@media screen and (max-width: 775px) {
+  .nav-logo {
+    width: 50%; }
+    .nav-logo:after {
+      background-color: transparent; }
+
+  .nav-logo-inner {
+    background-size: auto 100%; }
+
+  .nav-links {
+    display: none; }
+
+  .nav-contact {
+    display: none; }
+
+  .nav-mobile-button {
+    display: inline-block;
+    background-color: #f3ffe2;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f3ffe2));
+    background-image: -webkit-linear-gradient(top, white, #f3ffe2);
+    background-image: -moz-linear-gradient(top, white, #f3ffe2);
+    background-image: -ms-linear-gradient(top, white, #f3ffe2);
+    background-image: -o-linear-gradient(top, white, #f3ffe2);
+    background-image: linear-gradient(to bottom, white, #f3ffe2);
+    float: right;
+    width: 3em;
+    height: 3em;
+    border-radius: .25em;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 #0c1f2d;
+    position: relative;
+    background-image: url("assets/images/nav-mobile-button.png");
+    background-size: 50% auto;
+    background-position: center center;
+    background-repeat: no-repeat; }
+    .nav-mobile-button:before {
+      content: "menu";
+      position: absolute;
+      color: #EB7F00;
+      left: 0;
+      right: 0;
+      top: 100%;
+      padding-top: .25em;
+      text-align: center;
+      font-variant: small-caps;
+      text-shadow: #0c1f2d 1px 0 15px; } }
 .content-wrapper {
   width: 100%;
   max-width: 1800px;
@@ -1054,12 +1113,6 @@ nav {
   font-variant: small-caps; }
 
 @media screen and (max-width: 900px) {
-  .nav-logo-inner {
-    background-size: auto 90%; }
-
-  .nav-contact {
-    width: 18%; }
-
   .hero-col-content-one {
     display: none; }
 
@@ -1088,24 +1141,7 @@ nav {
   .studio-padding {
     padding-left: 5%;
     padding-right: 5%; } }
-@media screen and (max-width: 800px) {
-  .nav-logo-inner {
-    background-size: auto 80%; } }
 @media screen and (max-width: 775px) {
-  .nav-logo {
-    width: 50%; }
-    .nav-logo:after {
-      background-color: transparent; }
-
-  .nav-logo-inner {
-    background-size: auto 100%; }
-
-  .nav-links {
-    display: none; }
-
-  .nav-contact {
-    display: none; }
-
   .hero-col-content-two {
     width: 95%;
     padding-right: 5%;

@@ -11,14 +11,6 @@
 
 @media screen and (max-width: 900px){
 
-	.nav-logo-inner {
-		background-size: auto 90%;
-	}
-
-	.nav-contact {
-		width: 18%;
-	}
-
 	.hero-col-content-one {
 		display: none;
 	}
@@ -57,35 +49,7 @@
 
 } //900
 
-@media screen and (max-width: 800px){
-
-	.nav-logo-inner {
-		background-size: auto 80%;
-	}
-
-} // 800
-
 @media screen and (max-width: 775px){
-
-	.nav-logo {
-		width: 50%;
-
-		&:after {
-			background-color: transparent;
-		}
-	}
-
-		.nav-logo-inner {
-			background-size: auto 100%;
-		}
-
-	.nav-links {
-		display: none;
-	}
-
-	.nav-contact {
-		display: none;
-	}
 
 	.hero-col-content-two {
 		width: 95%;

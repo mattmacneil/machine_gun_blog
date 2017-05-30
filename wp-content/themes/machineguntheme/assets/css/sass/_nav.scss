@@ -149,8 +149,85 @@
 							}
 						}
 
+	.nav-mobile-button {
+		display: none;
+	}
 
 .nav-blocker {
 	width: 100%;
 	height: $nav-height + $nav-top-gap;
+}
+
+// mobile
+
+@media screen and (max-width: 900px){
+
+	.nav-logo-inner {
+		background-size: auto 90%;
+	}
+
+	.nav-contact {
+		width: 18%;
+	}
+
+}
+
+@media screen and (max-width: 800px){
+
+	.nav-logo-inner {
+		background-size: auto 80%;
+	}
+
+} // 800
+
+@media screen and (max-width: 775px){
+
+	.nav-logo {
+		width: 50%;
+
+		&:after {
+			background-color: transparent;
+		}
+	}
+
+		.nav-logo-inner {
+			background-size: auto 100%;
+		}
+
+	.nav-links {
+		display: none;
+	}
+
+	.nav-contact {
+		display: none;
+	}
+
+	.nav-mobile-button {
+		display: inline-block;
+		@include vertical_gradient($white);
+		float: right;
+		width: $nav-height;
+		height: $nav-height;
+		border-radius: .25em;
+		@include divshadow($black);
+		position: relative;
+		background-image: url('assets/images/nav-mobile-button.png');
+		background-size: 50% auto;
+		background-position: center center;
+		background-repeat: no-repeat;
+
+		&:before {
+			content: "menu";
+			position: absolute;
+			color: $orange;
+			left: 0;
+			right: 0;
+			top: 100%;
+			padding-top: .25em;
+			text-align: center;
+			font-variant: small-caps;
+			@include texthaze($black);
+		}
+	}
+
 }

@@ -1,42 +1,55 @@
 <div class="nav-container">
 
-	<div class="content-wrapper">
+	<div class="newnav">
 
-		<nav>
+		<div class="content-wrapper">
 
-			<a href="<?php echo home_url(); ?>">
-			<div class="nav-logo" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/nav-logo.png');">
+			<nav>
 
-					<em>Machine Gun Studios</em>
+				<div class="nav-inner">
 
-			</div><!-- nav logo -->
-			</a>
+					<div class="nav-logo">
 
-			<?php
-			wp_nav_menu( array( 
-			    'theme_location' 	=> 'mg-nav',
-			    'items_wrap' 			=> '<div class="menu-aligner">%3$s</div>',
-			    'menu_class' 			=> '',
-			    'menu_id'         => FALSE,
-			    'item_spacing' 		=> discard,
-			    'depth'           => 1,
-			    'container_class' => 'machine-gun-menu' ) ); 
-			?>
+						<a href="<?php echo home_url(); ?>">
+						<div class="nav-logo-inner" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/nav-logo.png');">
+						</div><!-- nav logo inner -->
+						</a>
 
-			<div class="nav-contact">
+					</div><!-- nav logo -->
 
-				<div class="nav-contact-align">
+					<div class="nav-links">
 
-					<a href="contact">contact</a>
+						<?php
+						wp_nav_menu( array( 
+						    'theme_location' 	=> 'mg-nav',
+						    'items_wrap' 			=> '<div class="menu-aligner">%3$s</div>',
+						    'menu_class' 			=> '',
+						    'menu_id'         => FALSE,
+						    'item_spacing' 		=> discard,
+						    'depth'           => 1,
+						    'container_class' => 'machine-gun-menu' ) ); 
+						?>
 
-				</div><!-- nav contact align -->
+					</div><!-- nav links -->
 
-			</div><!-- nav contact -->
+					<div class="nav-contact">
 
-			<div class="clearfix"></div>
+						<div class="nav-contact-align">
 
-		</nav><!-- nav -->
+							<a href="contact">contact</a>
 
-	</div><!-- content wrapper -->
+						</div><!-- nav contact align -->
+
+					</div><!-- nav contact -->
+
+					<div class="clearfix"></div>
+
+				</div><!-- nav inner -->
+
+			</nav><!-- nav -->
+
+		</div><!-- content wrapper -->
+
+	</div><!-- new nav -->
 
 </div><!-- nav container -->

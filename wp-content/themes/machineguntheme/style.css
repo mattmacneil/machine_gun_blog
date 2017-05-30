@@ -355,6 +355,10 @@ input, select {
 @font-face {
   font-family: 'cursivefont';
   src: url("assets/fonts/rocksalt.ttf"); }
+.newnav {
+  width: 100%;
+  padding-top: 2em; }
+
 .nav-container {
   width: 100%;
   position: absolute;
@@ -362,21 +366,17 @@ input, select {
   top: 0;
   z-index: 9999; }
 
-.nav-blocker {
-  width: 100%;
-  height: 5em; }
-
 nav {
-  padding: 2em 5% 0 5%; }
+  padding: 0 5%; }
+
+.nav-inner {
+  width: 100%; }
 
 .nav-logo {
   width: 12%;
   float: left;
   height: 3em;
-  position: relative;
-  background-position: center left;
-  background-size: auto 3em;
-  background-repeat: no-repeat; }
+  position: relative; }
   .nav-logo:after {
     content: "";
     position: absolute;
@@ -385,12 +385,17 @@ nav {
     bottom: 0;
     background-color: rgba(243, 255, 226, 0.5);
     width: 1px; }
-  .nav-logo em {
-    display: none; }
-  @media screen and (max-width: 900px) {
-    .nav-logo {
-      background-size: auto 90%;
-      width: 15%; } }
+
+.nav-logo-inner {
+  width: 100%;
+  height: 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center left; }
+
+.nav-links {
+  height: 100%;
+  float: left; }
 
 .machine-gun-menu {
   text-shadow: #0c1f2d 1px 0 15px; }
@@ -421,13 +426,14 @@ nav {
     padding-right: 0; }
 
 .nav-contact {
+  width: 12%;
+  float: right; }
+
+.nav-contact {
   float: right;
   width: 12%;
   height: 3em;
   display: table; }
-  @media screen and (max-width: 900px) {
-    .nav-contact {
-      width: 15%; } }
 
 .nav-contact-align {
   width: 100%;
@@ -475,6 +481,145 @@ nav {
       -ms-transition: all 0.3s;
       transition: all 0.3s; }
 
+.nav-blocker {
+  width: 100%;
+  height: 5em; }
+
+/*
+
+nav {
+	padding: $nav-top-gap 5% 0 5%;
+}
+
+	.nav-logo {
+		width: 12%;
+		float: left;
+		height: $nav-height;
+		position: relative;
+		background-position: center left;
+		background-size: auto $nav-height;
+		background-repeat: no-repeat;
+
+		&:after {
+			content: "";
+			position: absolute;
+			right: 1px;
+			top: 0;
+			bottom: 0;
+			background-color: rgba($white, .5);
+			width: 1px;
+		}
+
+		em{
+			display: none;
+		}
+
+		@media screen and (max-width: 900px){
+			background-size: auto 90%;
+			width: 15%;
+		}
+
+		@media screen and (max-width: 768px){
+			// hamburg sandwich
+		}
+	}
+
+	.machine-gun-menu{
+		@include texthaze($black);
+
+		.menu-aligner{
+			height: $nav-height;
+			display: table;
+			float: left;
+		}
+
+		li{
+			list-style: none;
+			display: table-cell;
+			vertical-align: middle;
+			height: 100%;
+			padding-right: 1.5em;
+
+			a {
+				text-decoration: none;
+				color: $white;
+
+				&:hover {
+					color: $orange;
+					@include fader;
+				}
+			}
+		}
+
+		li:first-of-type {
+			padding-left: 2em;
+		}
+
+		li:last-of-type {
+			padding-right: 0;
+		}
+	}
+
+	.nav-contact {
+		float: right;
+		width: 12%;
+		height: $nav-height;
+		display: table;
+
+		@media screen and (max-width: 900px){
+			width: 15%;
+		}		
+	}
+
+		.nav-contact-align {
+			width: 100%;
+			height: 100%;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+
+			$contact-snipe-pad: 1.5em;
+
+			a {
+				width: 100%;
+				color: $orange;
+				background-color: rgba($black, .1);
+				border: 1px solid $orange;
+				display: inline-block;
+				text-decoration: none;
+				padding: .25em 0;
+				@include divshadow($darkblue);
+				position: relative;
+				padding-right: $contact-snipe-pad;
+				border-radius: .25em;
+				@include texthaze($black);
+
+				&:after{
+					content: "";
+					position: absolute;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					width: $contact-snipe-pad;
+					background-color: $orange;
+					background-size: 1em auto;
+					background-position: center center;
+					background-repeat: no-repeat;
+					background-image: url('assets/images/nav-contact-align.png');
+					border-top-right-radius: .2em;
+					border-bottom-right-radius: .2em;
+					border: 1px solid $orange;
+				}
+
+				&:hover {
+					background-color: $orange;
+					color: $white;
+					@include fader;
+				}
+			}
+		}
+
+*/
 .content-wrapper {
   width: 100%;
   max-width: 1800px;
@@ -1044,6 +1189,9 @@ nav {
   font-variant: small-caps; }
 
 @media screen and (max-width: 900px) {
+  .nav-logo-inner {
+    background-size: auto 90%; }
+
   .hero-col-content-one {
     display: none; }
 

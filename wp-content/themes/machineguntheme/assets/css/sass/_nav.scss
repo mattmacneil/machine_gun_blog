@@ -1,18 +1,161 @@
 @import "vars";
 @import "mixins";
 
-.nav-container {
+.newnav {
 	width: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: 9999;
+	padding-top: $nav-top-gap;
 }
+
+	.nav-container {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 9999;
+	}
+
+		nav {
+			padding: 0 5%;
+		}
+
+			.nav-inner {
+				width: 100%;
+			}
+
+				.nav-logo {
+					width: 12%;
+					float: left;
+					height: $nav-height;
+					position: relative;
+
+					&:after {
+						content: "";
+						position: absolute;
+						right: 1px;
+						top: 0;
+						bottom: 0;
+						background-color: rgba($white, .5);
+						width: 1px;
+					}
+				}
+
+					.nav-logo-inner {
+						width: 100%;
+						height: 100%;
+						background-size: auto 100%;
+						background-repeat: no-repeat;
+						background-position: center left;
+					}
+
+				.nav-links {
+					height: 100%;
+					float: left;
+				}
+
+					.machine-gun-menu{
+						@include texthaze($black);
+
+						.menu-aligner{
+							height: $nav-height;
+							display: table;
+							float: left;
+						}
+
+						li{
+							list-style: none;
+							display: table-cell;
+							vertical-align: middle;
+							height: 100%;
+							padding-right: 1.5em;
+
+							a {
+								text-decoration: none;
+								color: $white;
+
+								&:hover {
+									color: $orange;
+									@include fader;
+								}
+							}
+						}
+
+						li:first-of-type {
+							padding-left: 2em;
+						}
+
+						li:last-of-type {
+							padding-right: 0;
+						}
+					}
+
+				.nav-contact {
+					width: 12%;
+					float: right;
+				}
+
+
+					.nav-contact {
+						float: right;
+						width: 12%;
+						height: $nav-height;
+						display: table;
+					}
+
+						.nav-contact-align {
+							width: 100%;
+							height: 100%;
+							display: table-cell;
+							vertical-align: middle;
+							text-align: center;
+
+							$contact-snipe-pad: 1.5em;
+
+							a {
+								width: 100%;
+								color: $orange;
+								background-color: rgba($black, .1);
+								border: 1px solid $orange;
+								display: inline-block;
+								text-decoration: none;
+								padding: .25em 0;
+								@include divshadow($darkblue);
+								position: relative;
+								padding-right: $contact-snipe-pad;
+								border-radius: .25em;
+								@include texthaze($black);
+
+								&:after{
+									content: "";
+									position: absolute;
+									right: 0;
+									top: 0;
+									bottom: 0;
+									width: $contact-snipe-pad;
+									background-color: $orange;
+									background-size: 1em auto;
+									background-position: center center;
+									background-repeat: no-repeat;
+									background-image: url('assets/images/nav-contact-align.png');
+									border-top-right-radius: .2em;
+									border-bottom-right-radius: .2em;
+									border: 1px solid $orange;
+								}
+
+								&:hover {
+									background-color: $orange;
+									color: $white;
+									@include fader;
+								}
+							}
+						}
+
 
 .nav-blocker {
 	width: 100%;
 	height: $nav-height + $nav-top-gap;
 }
+
+/*
 
 nav {
 	padding: $nav-top-gap 5% 0 5%;
@@ -145,3 +288,5 @@ nav {
 				}
 			}
 		}
+
+*/

@@ -97,7 +97,7 @@
 <!-- The overlay -->
 <div id="myNav" class="overlay">
 
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">CLOSE</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp;</a>
 
   <span class="title" onclick="location.href='index.php';">Machine Gun<br />Studios ///</span>
 

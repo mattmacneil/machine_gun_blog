@@ -241,10 +241,11 @@
 		width: 50%;
 
 		&:after {
-			content: "Machine Gun Studios";
+			content: "MGS|JP|MA";
 			top: 100%;
 			left: 0;
 			width: 200%;
+			white-space: pre;
 			text-transform: lowercase;
 			font-variant: small-caps;
 			padding-top: .25em;
@@ -321,22 +322,39 @@
 
 .overlay .closebtn {
     position: absolute;
-    top: 4%;
+    top: $nav-top-gap;
     right: 5%;
-    font-size: 60px;
+    color: $orange;
+    width: $nav-height;
+    height: $nav-height;
+    background-color: $orange;
+		border-radius: .25em;
+		@include divshadow($black);
+		background-image: url('assets/images/nav-mobile-close.png');
+		background-size: 50% auto;
+		background-position: center center;
+		background-repeat: no-repeat;
 
-    i{
-    	color: $orange;
-    }
+		&:before {
+			content: "close";
+			position: absolute;
+			color: $white;
+			left: 0;
+			right: 0;
+			top: 100%;
+			padding-top: .25em;
+			text-align: center;
+			font-variant: small-caps;
+			@include texthaze(black);
+		}
 }
 
 .overlay .title {
     position: absolute;
-    top: 4.75%;
+    top: $nav-top-gap;
     left: 5%;
     color: $white;
     font-weight: bold;
-    margin-top: 10px;
     cursor: pointer;
 }
 

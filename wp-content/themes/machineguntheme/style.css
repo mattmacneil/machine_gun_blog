@@ -613,8 +613,8 @@ nav {
   background-color: #2d6ea0;
   background-color: rgba(12, 31, 45, 0.95);
   overflow-x: hidden;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background-image: url("assets/images/stripe.png"); }
 
 .overlay .closebtn {

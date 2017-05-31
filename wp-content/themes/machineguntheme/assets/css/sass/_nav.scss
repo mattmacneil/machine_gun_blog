@@ -297,3 +297,140 @@
 	}
 
 }
+
+// OVERLAY
+
+.nav-screen{
+	display: none;
+}
+
+.overlay {  
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    background-color: $blue;
+    background-color: rgba($black, 0.95);
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; 
+    background-image: url('assets/images/stripe.png');
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    font-size: 60px;
+
+    i{
+    	color: $orange;
+    }
+}
+
+.overlay .title {
+    position: absolute;
+    top: 4.75%;
+    left: 5%;
+    color: $white;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.overlay-content {
+    position: relative;
+    top: 8em;
+    width: 100%;
+    padding: 0 5%;
+}
+
+	.overlay-content-row{
+		width: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+
+		.overlay-content-cell{
+			width: 32%;
+			margin-bottom: 2%;
+			margin-bottom: 2vw;
+		}
+
+			.overlay-content-cell-inner{
+				width: 100%;
+				height: 100%;
+				background-color: $white;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: justify;
+				    -ms-flex-pack: justify;
+				        justify-content: space-between;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				    -ms-flex-direction: column;
+				        flex-direction: column;
+				-webkit-box-align: center;
+				    -ms-flex-align: center;
+				        align-items: center;
+				@include rounded(1em);
+				padding: 2em .25em;
+
+				img{
+					height: 4em;
+					margin-bottom: .5em;
+				}
+			}
+
+@media screen and (max-width: 475px) {
+    .overlay-content-cell{
+    	width: 49%;
+    }
+
+    .overlay-content-cell-inner{
+    	padding: 1em .25em;
+
+    	img{
+    		height: 3em;
+    	}
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .overlay-content{
+    	padding: 0 10%;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .overlay-content{
+    	top: 5em;
+    }
+
+    .overlay .title{
+    	top: 20px;
+    	margin-top: 0;
+    }
+
+    .overlay-content-cell-inner{
+    	img{
+    		height: 2.5em;
+    	}
+    }
+}

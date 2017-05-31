@@ -76,7 +76,7 @@
 
 					</div><!-- nav contact -->
 
-					<div class="nav-mobile-button">
+					<div class="nav-mobile-button" onclick="openNav()">
 
 						&nbsp;
 
@@ -93,3 +93,93 @@
 	</div><!-- new nav -->
 
 </div><!-- nav container -->
+
+<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">CLOSE</a>
+
+  <span class="title" onclick="location.href='index.php';">Machine Gun<br />Studios ///</span>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    
+  	<div class="overlay-content-row">
+
+  		<div class="overlay-content-cell">
+  			<a href="recording.php" class="noline">
+  			<div class="overlay-content-cell-inner">
+
+  				<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-recording.png" alt="Go to Recording Page" />
+
+  				recording
+
+  			</div><!-- overlay content cell inner -->
+  			</a>
+  		</div><!-- overlay content cell -->
+
+   		<div class="overlay-content-cell">
+   			<a href="mixing.php" class="noline">
+   			<div class="overlay-content-cell-inner">
+
+					<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-mixing.png" alt="Go to Mixing Page" />
+
+   				mixing
+
+   			</div><!-- overlay content cell inner -->
+   			</a>
+  		</div><!-- overlay content cell -->
+
+  		<div class="overlay-content-cell">
+  			<a href="studio.php" class="noline">
+  			<div class="overlay-content-cell-inner">
+
+  			<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-studio.png" alt="Go to Studio Page" />
+
+  				studio
+
+  			</div><!-- overlay content cell inner -->
+  			</a>
+  		</div><!-- overlay content cell -->
+
+  		<div class="overlay-content-cell">
+  			<a href="gear.php" class="noline">
+  			<div class="overlay-content-cell-inner">
+
+  				<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-gear.png" alt="Go to Gear Page" />
+
+  				gear
+
+  			</div><!-- overlay content cell inner -->
+  			</a>
+  		</div><!-- overlay content cell -->
+
+  		<div class="overlay-content-cell">
+  			<a href="blog.php" class="noline">
+  			<div class="overlay-content-cell-inner">
+
+  			<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-news.png" alt="Go to News Page" />
+
+  				blog
+
+  			</div><!-- overlay content cell inner -->
+  			</a>
+  		</div><!-- overlay content cell -->
+
+   		<div class="overlay-content-cell">
+   			<a href="contact.php" class="noline">
+  			<div class="overlay-content-cell-inner">
+
+  			<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-contact.png" alt="Go to Contact Page" />
+
+  				contact
+
+  			</div><!-- overlay content cell inner -->
+  			</a>
+  		</div><!-- overlay content cell -->
+
+  	</div><!-- overlay content row -->
+
+  </div><!-- overlay content -->
+
+</div><!-- overlay nav -->

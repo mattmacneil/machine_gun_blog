@@ -4,6 +4,7 @@
 *.css.map
 css/sass/maps
 *.scssc
+**.scssc
 wp-content/themes/machineguntheme/.sass-cache/*
 wp-content/themes/machineguntheme/.sass-cache
 wp-content/themes/machineguntheme/.sass-cache/

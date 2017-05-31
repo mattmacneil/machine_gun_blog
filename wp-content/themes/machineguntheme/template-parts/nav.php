@@ -10,6 +10,40 @@
 
 					<div class="nav-logo">
 
+						<div class="nav-logo-text">
+						
+							<div class="nav-logo-text-row">
+
+								<span>&equiv;</span><span>M</span><span>A</span><span>C</span><span>H</span>
+
+							</div><!-- nav logo text row -->	
+
+							<div class="nav-logo-text-row">
+
+								<span>I</span><span>N</span><span>E</span><span>&equiv;</span><span>&equiv;</span>
+
+							</div><!-- nav logo text row -->	
+
+							<div class="nav-logo-text-row">
+
+								<span>G</span><span>U</span><span>N</span><span>&equiv;</span><span>&equiv;</span>
+
+							</div><!-- nav logo text row -->	
+
+							<div class="nav-logo-text-row">
+
+								<span>S</span><span>T</span><span>U</span><span>&equiv;</span><span>&equiv;</span>
+
+							</div><!-- nav logo text row -->	
+
+							<div class="nav-logo-text-row">
+
+								<span>&equiv;</span><span>D</span><span>I</span><span>O</span><span>S</span>
+
+							</div><!-- nav logo text row -->	
+
+						</div><!-- nav logo text -->
+
 						<a href="<?php echo home_url(); ?>">
 						<div class="nav-logo-inner" style="background-image: url('<?php bloginfo('template_url'); ?>/assets/images/nav-logo.png');">
 						</div><!-- nav logo inner -->

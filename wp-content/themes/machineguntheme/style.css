@@ -388,9 +388,28 @@ nav {
     background-color: rgba(243, 255, 226, 0.5);
     width: 1px; }
 
+.nav-logo-text {
+  position: absolute;
+  width: 70%;
+  height: 5em;
+  left: -3em;
+  left: -4.5vw;
+  top: -1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0.5; }
+
+.nav-logo-text-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: .75em;
+  text-shadow: #0c1f2d 1px 0 15px; }
+
 .nav-logo-inner {
   width: 100%;
   height: 100%;
+  position: absolute;
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center left; }
@@ -509,6 +528,13 @@ nav {
   .nav-logo {
     width: 50%; }
     .nav-logo:after {
+      content: "Machine Gun Studios";
+      top: 100%;
+      left: 0;
+      width: 200%;
+      text-transform: lowercase;
+      font-variant: small-caps;
+      padding-top: .25em;
       background-color: transparent; }
 
   .nav-logo-inner {
@@ -551,7 +577,7 @@ nav {
       padding-top: .25em;
       text-align: center;
       font-variant: small-caps;
-      text-shadow: #0c1f2d 1px 0 15px; } }
+      text-shadow: black 1px 0 15px; } }
 .content-wrapper {
   width: 100%;
   max-width: 1800px;

@@ -831,7 +831,6 @@ nav {
   position: absolute;
   left: -6em;
   top: 3.5em;
-  z-index: 9999;
   height: 4em;
   width: 4em;
   background-size: auto 100%;

@@ -282,6 +282,7 @@
 		background-size: 50% auto;
 		background-position: center center;
 		background-repeat: no-repeat;
+		cursor: pointer;
 
 		&:before {
 			content: "menu";
@@ -315,8 +316,8 @@
     background-color: $blue;
     background-color: rgba($black, 0.95);
     overflow-x: hidden;
-    -webkit-transition: 0.5s;
-    transition: 0.5s; 
+    -webkit-transition: 0.1s;
+    transition: 0.1s; 
     background-image: url('assets/images/stripe.png');
 }
 
@@ -353,9 +354,25 @@
     position: absolute;
     top: $nav-top-gap;
     left: 5%;
-    color: $white;
     font-weight: bold;
     cursor: pointer;
+
+    img {
+    	height: $nav-height;
+    }
+
+		&:after {
+			content: "MGS|JP|MA";
+			top: 100%;
+			left: 0;
+			width: 200%;
+			position: absolute;
+			white-space: pre;
+			text-transform: lowercase;
+			font-variant: small-caps;
+			padding-top: .25em;
+			background-color: transparent;
+		}
 }
 
 .overlay-content {

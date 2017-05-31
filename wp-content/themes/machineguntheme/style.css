@@ -587,7 +587,8 @@ nav {
     background-image: url("assets/images/nav-mobile-button.png");
     background-size: 50% auto;
     background-position: center center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    cursor: pointer; }
     .nav-mobile-button:before {
       content: "menu";
       position: absolute;
@@ -612,8 +613,8 @@ nav {
   background-color: #2d6ea0;
   background-color: rgba(12, 31, 45, 0.95);
   overflow-x: hidden;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
   background-image: url("assets/images/stripe.png"); }
 
 .overlay .closebtn {
@@ -648,9 +649,21 @@ nav {
   position: absolute;
   top: 2em;
   left: 5%;
-  color: #f3ffe2;
   font-weight: bold;
   cursor: pointer; }
+  .overlay .title img {
+    height: 3em; }
+  .overlay .title:after {
+    content: "MGS|JP|MA";
+    top: 100%;
+    left: 0;
+    width: 200%;
+    position: absolute;
+    white-space: pre;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    padding-top: .25em;
+    background-color: transparent; }
 
 .overlay-content {
   position: relative;

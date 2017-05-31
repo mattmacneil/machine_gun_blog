@@ -99,7 +99,11 @@
 
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp;</a>
 
-  <span class="title" onclick="location.href='index.php';">Machine Gun<br />Studios ///</span>
+  <span class="title" onclick="location.href='<?php echo home_url(); ?>';">
+
+  	<img src="<?php bloginfo('template_url'); ?>/assets/images/nav-logo.png" />
+
+  </span>
 
   <!-- Overlay content -->
   <div class="overlay-content">

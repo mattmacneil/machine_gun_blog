@@ -242,7 +242,7 @@ body {
   min-width: 100%;
   min-height: 100%;
   background-color: #f3ffe2;
-  font-family: "bodyfont", Arial, Helvetica, sans-serif;
+  font-family: "bodyfont", monospace, Arial, Helvetica, sans-serif;
   font-weight: 300;
   color: #0c1f2d;
   font-size: 1.1em;
@@ -269,7 +269,7 @@ textarea {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  font-family: "bodyfont", Arial, Helvetica, sans-serif; }
+  font-family: "bodyfont", monospace, Arial, Helvetica, sans-serif; }
 
 p {
   font-variant-numeric: oldstyle-nums; }

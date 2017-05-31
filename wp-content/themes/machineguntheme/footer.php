@@ -92,7 +92,7 @@
 		</div><!-- footer wrap -->
 
 		<div class="grave">
-			machine gun studios
+			machine gun studios - jamaica plain, massachusetts.
 		</div><!-- grave -->
 
 		<?php wp_footer(); ?> 

@@ -111,7 +111,7 @@
   	<div class="overlay-content-row">
 
   		<div class="overlay-content-cell">
-  			<a href="recording.php" class="noline">
+  			<a href="recording" class="noline">
   			<div class="overlay-content-cell-inner">
 
   				<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-recording.png" alt="Go to Recording Page" />
@@ -123,7 +123,7 @@
   		</div><!-- overlay content cell -->
 
    		<div class="overlay-content-cell">
-   			<a href="mixing.php" class="noline">
+   			<a href="mixing" class="noline">
    			<div class="overlay-content-cell-inner">
 
 					<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-mixing.png" alt="Go to Mixing Page" />
@@ -135,7 +135,7 @@
   		</div><!-- overlay content cell -->
 
   		<div class="overlay-content-cell">
-  			<a href="studio.php" class="noline">
+  			<a href="studio" class="noline">
   			<div class="overlay-content-cell-inner">
 
   			<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-studio.png" alt="Go to Studio Page" />
@@ -147,7 +147,7 @@
   		</div><!-- overlay content cell -->
 
   		<div class="overlay-content-cell">
-  			<a href="gear.php" class="noline">
+  			<a href="gear" class="noline">
   			<div class="overlay-content-cell-inner">
 
   				<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-gear.png" alt="Go to Gear Page" />
@@ -159,7 +159,7 @@
   		</div><!-- overlay content cell -->
 
   		<div class="overlay-content-cell">
-  			<a href="blog.php" class="noline">
+  			<a href="blog" class="noline">
   			<div class="overlay-content-cell-inner">
 
   			<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-news.png" alt="Go to News Page" />
@@ -171,7 +171,7 @@
   		</div><!-- overlay content cell -->
 
    		<div class="overlay-content-cell">
-   			<a href="contact.php" class="noline">
+   			<a href="contact" class="noline">
   			<div class="overlay-content-cell-inner">
 
   			<img src="<?php bloginfo('template_url'); ?>/assets/images/icon-contact.png" alt="Go to Contact Page" />

@@ -12,9 +12,9 @@
 
 	<div class="studio-wrapper">
 
-		<div class="content-wrapper studio-padding">
+		<div class="content-wrapper">
 
-			<div class="studio-pic-container">
+			<div class="studio-pic-container studio-padding">
 
 				<div class="studio-pic studio-pic-1">
 

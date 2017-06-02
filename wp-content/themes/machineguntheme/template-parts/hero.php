@@ -57,10 +57,19 @@
 
 							if ( !is_front_page() ) {
 
+
+								if ( is_page() ) {
 								echo '<div class="hero-snipe" style="background-image: url(';
 								echo kdmfi_get_featured_image_src('featured-image-2');
 								echo ');"></div><!-- hero content snipe -->';	
-
+								}
+									else {
+										echo '<div class="hero-snipe" style="background-image: url(';
+										echo "'";
+										echo bloginfo('template_url');
+										echo "/assets/images/icon-news.png'";
+										echo ');"></div><!-- hero content snipe -->';	
+									}
 							}
 						?>	
 
@@ -83,7 +92,7 @@
 								echo '<h1>' . $pageheadline . '</h1>';
 							}
 								else {
-									echo '<h1>All The Latest From Machine Gun Studios.</h1>';
+									echo '<h1>Machine Gun Studios.</h1>';
 								}
 
 							$herotext = get_post_meta( get_the_ID(), 'herotext', true);

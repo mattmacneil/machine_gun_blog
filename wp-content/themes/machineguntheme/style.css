@@ -1258,7 +1258,8 @@ nav {
   font-family: "headlinefont", Gadget, sans-serif;
   text-transform: uppercase;
   color: #2d6ea0;
-  opacity: .5; }
+  opacity: .5;
+  line-height: .9; }
 
 .blog-card-right {
   flex: 1;
@@ -1297,6 +1298,20 @@ nav {
     -o-transition: all 0.3s;
     -ms-transition: all 0.3s;
     transition: all 0.3s; }
+
+.blog-page-links {
+  width: 100%; }
+  .blog-page-links a {
+    padding: .5em 1em;
+    background-color: #EB7F00;
+    display: inline-block;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 grey; }
+  .blog-page-links .older {
+    float: right; }
+  .blog-page-links .newer {
+    float: left; }
 
 .contact-hl-signature {
   width: 100%;

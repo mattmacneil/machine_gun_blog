@@ -601,6 +601,7 @@
 					text-transform: uppercase;
 					color: $blue;
 					opacity: .5;
+					line-height: .9;
 				}
 
 		.blog-card-right {
@@ -643,6 +644,25 @@
 					@include fader;
 				}
 			}
+
+	.blog-page-links {
+		width: 100%;
+		
+		a {
+			padding: .5em 1em;
+			background-color: $orange;
+			display: inline-block;
+			@include divshadow;
+		}
+
+		.older {
+			float: right;
+		}
+
+		.newer {
+			float: left;
+		}
+	}
 
 .contact-hl-signature {
 	width: 100%;

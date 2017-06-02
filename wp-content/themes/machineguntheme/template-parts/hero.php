@@ -11,7 +11,16 @@
 
 ?>
 
-<div class="hero" style="background-image: url('<?php echo the_post_thumbnail_url(); ?>');">
+<div class="hero" style="background-image: url('<?php 
+
+	if ( has_post_thumbnail() ) {
+		the_post_thumbnail_url(); }
+			else {
+				echo bloginfo('template_directory');
+				echo '/assets/images/blog-card-image-default.jpg';
+			}
+
+	?>');">
 
 	<?php
 
@@ -82,7 +91,7 @@
 								$author = get_the_author();
 
 	   						if ( !is_page() ) {
-	   							$herotext = "Posted: " . get_the_time('l F jS Y');
+	   							$herotext = "<span style='font-weight: bold;'>Posted&nbsp;&nbsp;On:</span> " . get_the_time('l F jS Y');
 	   						}
 
 							if( ! empty( $herotext ) ) {
@@ -94,7 +103,7 @@
 
 						if (have_posts() && !is_page()) : while (have_posts()) : the_post();
 
-							echo "Written by: ";
+							echo "<span style='font-weight: bold;'>Written by:</span> ";
 							the_author();
 
 						endwhile;

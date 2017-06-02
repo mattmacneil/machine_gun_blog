@@ -23,9 +23,6 @@
 					<div class="blog-card-image-container">
 
 						<div class="blog-card-image">
-
-							hi
-
 						</div><!-- blog card image -->
 
 					</div><!-- blog card image -->
@@ -48,10 +45,7 @@
 
 				<em>By: Mike Irwin</em>
 
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
+				<?php $blog_card_content = get_the_content(); echo mb_strimwidth($blog_card_content, 0, 175, '...');?>
 
 			</div><!-- blog card right -->
 

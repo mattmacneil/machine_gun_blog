@@ -1211,10 +1211,13 @@ nav {
   padding: 0 0 1.5em 1.5em; }
 
 .blog-card-image-container {
-  background-color: #ACF0F2;
   flex: 1;
   position: relative;
-  box-shadow: 10px 10px 50px 0px rgba(12, 31, 45, 0.75); }
+  box-shadow: 10px 10px 50px 0px rgba(12, 31, 45, 0.75);
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  border-radius: 0.25em; }
 
 .blog-card-image {
   width: 100%;
@@ -1225,8 +1228,24 @@ nav {
   right: 0;
   top: -2em;
   background-color: cyan;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  border-radius: 0.25em;
   background-size: cover;
   background-position: center center; }
+  .blog-card-image:after {
+    content: "";
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 100%;
+    height: 1em;
+    background-image: url("assets/images/nav-logo.png");
+    background-size: auto 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    opacity: 0.5; }
 
 .blog-card-date {
   padding-top: 1.5em; }

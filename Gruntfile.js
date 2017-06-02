@@ -10,9 +10,9 @@ module.exports = function (grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'css/sass',
+          cwd: 'wp-content/themes/machineguntheme/assets/css/sass',
           src: ['**/*.scss'],
-          dest: 'css/styles',
+          dest: 'wp-content/themes/machineguntheme/',
           ext: '.css'
       }]
       }
@@ -23,17 +23,17 @@ module.exports = function (grunt) {
 
         map: {
             inline: false,
-            annotation: 'css/sass/maps/'
+            annotation: 'wp-content/themes/machineguntheme/assets/css/sass/maps'
         },
 
         processors: [
           require('pixrem')(),
-          require('autoprefixer')({browsers: 'last 10 versions'}),
+          require('autoprefixer')({browsers: 'last 100 versions'}),
           require('cssnano')()
         ]
       },
       dist: {
-        src: 'css/styles/*.css'
+        src: 'wp-content/themes/**/*.css'
       }
     },
 

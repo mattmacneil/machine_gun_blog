@@ -1250,7 +1250,7 @@ nav {
 .blog-card-image-overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(45, 110, 160, 0.25); }
+  background-color: rgba(45, 110, 160, 0.35); }
 
 .blog-card-date {
   padding-top: .5em;

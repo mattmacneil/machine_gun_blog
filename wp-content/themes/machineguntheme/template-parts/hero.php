@@ -64,6 +64,12 @@
    						}
 
 							$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
+
+   						if ( !is_page() ) {
+   							$pageheadline = get_the_title();
+   						}
+
+
 							if( ! empty( $pageheadline ) ) {
 								echo '<h1>' . $pageheadline . '</h1>';
 							}

@@ -33,7 +33,7 @@
 							else {
 								echo '<h1>All The Latest From Machine Gun Studios.</h1>';
 							}
-
+							
 					?>
 
 				</div><!-- two -->

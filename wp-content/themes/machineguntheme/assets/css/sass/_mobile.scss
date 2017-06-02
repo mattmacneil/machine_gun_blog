@@ -1,6 +1,14 @@
 @import "vars";
 @import "mixins";
 
+@media screen and (max-height: 600px){
+
+	.hero-content {
+		margin-top: 5em;
+	}
+
+} // 600 height
+
 @media screen and (max-width: 1125px){
 
 	.col-content-burst-snipe-inner {

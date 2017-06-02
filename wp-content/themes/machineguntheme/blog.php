@@ -8,6 +8,27 @@
 
 	<?php get_template_part( 'template-parts/hero' ); ?>
 
+	<div class="blog-card-container">
+
+		<div class="blog-card">
+
+			<div class="blog-card-left">
+
+				hi
+
+			</div><!-- blog card left -->
+
+			<div class="blog-card-right">
+
+				<p class="pslug">hi</p>
+
+			</div><!-- blog card right -->
+
+		</div><!-- blog card -->
+
+	</div><!-- blog card container -->
+
+
 	<div style="height: 100px;"></div>
 
 	<?php $custom_query = new WP_Query('cat=-42069');

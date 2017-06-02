@@ -528,6 +528,29 @@
   }
 }
 
+.blog-card-container {
+	width: 100%;
+	padding: 4em 16%;
+	background-color: yellow;
+}
+
+	.blog-card {
+		width: 100%;
+		display: flex;
+		background-color: orange;
+	}
+
+		.blog-card-left {
+			width: 55%;
+			background-color: red;
+		}
+
+		.blog-card-right {
+			flex: 1;
+			background-color: green;
+			padding: 1em;
+		}
+
 .contact-hl-signature {
 	width: 100%;
 	text-align: right;

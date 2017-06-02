@@ -538,6 +538,7 @@
 		display: flex;
 		background-color: $white;
 		@include divshadow;
+		margin-bottom: 5em;
 	}
 
 		.blog-card-left {
@@ -553,7 +554,7 @@
 			}
 
 				.blog-card-image-container {
-					background-color: cyan;
+					background-color: $lightblue;
 					flex: 1;
 					position: relative;
 					box-shadow: 10px 10px 50px 0px rgba($black,0.75);
@@ -567,7 +568,7 @@
 						left: 0;
 						right: 0;
 						top: -2em;
-						background-color: green;
+						background-color: cyan;
 						background-size: cover;
 						background-position: center center;
 					}
@@ -579,6 +580,25 @@
 		.blog-card-right {
 			flex: 1;
 			padding: 1.5em;
+
+			.title {
+				display: inline-block;
+				font-size: 1.5em;
+				font-family: $headline-font;
+				margin-bottom: .25em;
+			}
+
+			em {
+				font-size: .9em;
+				text-transform: lowercase;
+				font-variant: small-caps;
+				margin-bottom: 1em;
+				padding-bottom: .5em;
+				border-bottom: 1px solid $blue;
+				color: $blue;
+				display: inline-block;
+				width: 100%;
+			}
 		}
 
 .contact-hl-signature {

@@ -10,7 +10,10 @@
 
 	<div class="blog-card-container">
 
-		<a href="xxxx" class="noline">
+		<?php $custom_query = new WP_Query('cat=-42069');
+		while($custom_query->have_posts()) : $custom_query->the_post(); ?>
+
+		<a href="<?php the_permalink(); ?>" class="noline">
 		<div class="blog-card">
 
 			<div class="blog-card-left">
@@ -39,6 +42,12 @@
 
 			<div class="blog-card-right">
 
+				<span class="title">
+					<?php the_title(); ?>
+				</span>
+
+				<em>By: Mike Irwin</em>
+
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -47,9 +56,14 @@
 			</div><!-- blog card right -->
 
 		</div><!-- blog card -->
+		</a>
+
+		<?php endwhile; ?>
+		<?php wp_reset_postdata(); ?>
 
 	</div><!-- blog card container -->
-	</a>
+
+
 
 
 	<div style="height: 100px;"></div>
@@ -63,7 +77,7 @@
 		</div>
 
 	<?php endwhile; ?>
-	<?php wp_reset_postdata(); // reset the query ?>
+	<?php wp_reset_postdata(); ?>
 	<div style="height: 100px;"></div>
 
 	<?php get_footer(); ?>

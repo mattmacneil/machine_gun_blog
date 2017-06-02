@@ -1032,10 +1032,12 @@ nav {
   flex: 1; }
   .col-post-content img {
     display: none; }
+  .col-post-content a {
+    text-decoration: none; }
   .col-post-content a:first-of-type {
-    font-weight: bold; }
+    font-weight: bold;
+    text-decoration: underline; }
   .col-post-content a:last-of-type {
-    text-decoration: none;
     font-weight: bold; }
 
 .front-right-pic {

@@ -360,12 +360,16 @@
 						display: none;
 					}
 
+					a {
+						text-decoration: none;
+					}
+
 					a:first-of-type {
 						font-weight: bold;
+						text-decoration: underline;
 					}
 
 					a:last-of-type {
-						text-decoration: none;
 						font-weight: bold;
 					}
 				}

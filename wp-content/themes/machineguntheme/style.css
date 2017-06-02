@@ -1201,7 +1201,7 @@ nav {
   margin-bottom: 5em; }
 
 .blog-card-left {
-  width: 55%; }
+  width: 53%; }
 
 .blog-card-left-inner {
   width: 100%;
@@ -1247,17 +1247,27 @@ nav {
     background-repeat: no-repeat;
     opacity: 0.5; }
 
+.blog-card-image-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(45, 110, 160, 0.25); }
+
 .blog-card-date {
-  padding-top: 1.5em; }
+  padding-top: .5em;
+  font-size: 2em;
+  font-family: "headlinefont", Gadget, sans-serif;
+  text-transform: uppercase;
+  color: #2d6ea0; }
 
 .blog-card-right {
   flex: 1;
-  padding: 1.5em; }
+  padding: 1.5em 1.5em 1.5em 2em; }
   .blog-card-right .title {
     display: inline-block;
     font-size: 1.5em;
     font-family: "headlinefont", Gadget, sans-serif;
-    margin-bottom: .25em; }
+    margin-bottom: .25em;
+    text-decoration: none; }
   .blog-card-right em {
     font-size: .9em;
     text-transform: lowercase;
@@ -1268,6 +1278,24 @@ nav {
     color: #2d6ea0;
     display: inline-block;
     width: 100%; }
+
+.blog-card-button {
+  width: 100%;
+  padding: .5em .25em;
+  border: 1px solid #EB7F00;
+  color: #EB7F00;
+  display: inline-block;
+  margin-top: 1em;
+  text-align: center; }
+  .blog-card-button:hover {
+    background-color: #EB7F00;
+    color: #f3ffe2;
+    -khtml-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s; }
 
 .contact-hl-signature {
   width: 100%;

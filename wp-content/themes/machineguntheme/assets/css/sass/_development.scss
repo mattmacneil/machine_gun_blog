@@ -653,6 +653,12 @@
 			background-color: $orange;
 			display: inline-block;
 			@include divshadow;
+			text-decoration: none;
+
+			&:hover {
+				color: $white;
+				@include fader;
+			}
 		}
 
 		.older {

@@ -836,7 +836,8 @@ nav {
   width: 4em;
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: left; }
+  background-position: left;
+  z-index: 8500; }
 
 .landing-bars {
   position: absolute;

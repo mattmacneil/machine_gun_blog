@@ -65,9 +65,9 @@
 
 							$pageheadline = get_post_meta( get_the_ID(), 'headliner', true);
 
-   						if ( !is_page() ) {
-   							$pageheadline = get_the_title();
-   						}
+	   						if ( !is_page() ) {
+	   							$pageheadline = get_the_title();
+	   						}
 
 
 							if( ! empty( $pageheadline ) ) {
@@ -78,6 +78,14 @@
 								}
 
 							$herotext = get_post_meta( get_the_ID(), 'herotext', true);
+
+								$author = get_the_author();
+
+	   						if ( !is_page() ) {
+	   							$herotext = "Posted: " . get_the_time('l F jS Y');
+	   						}
+
+
 							if( ! empty( $herotext ) ) {
 								echo '<p>' . $herotext . '</p>';
 							}
@@ -106,5 +114,6 @@
 		</div><!-- hero underbar -->
 
 	</div><!-- hero overlay -->
+
 
 </div><!-- hero -->

@@ -16,7 +16,7 @@
   $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
   $query_args = array(
     'post_type' => 'post',
-    'posts_per_page' => 3,
+    'posts_per_page' => 5,
     'paged' => $paged
   );
   $the_query = new WP_Query( $query_args );
@@ -31,8 +31,6 @@
 					<div class="blog-card-left-inner">
 
 						<div class="blog-card-image-container">
-
-
 
 							<div class="blog-card-image" style="background-image: url('<?php 
 

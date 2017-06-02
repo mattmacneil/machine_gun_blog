@@ -149,6 +149,32 @@
 		width: 100%;
 	}
 
+	.blog-card {
+		flex-direction: column;
+		margin-bottom: 3em;
+	}
+
+		.blog-card-left {
+			width: 100%;
+			padding: 0;
+			height: 10em;
+		}
+
+		.blog-card-left-inner {
+			padding: 0;
+		}
+
+		.blog-card-image {
+			top: 0;
+		}
+
+		.blog-card-date {
+			padding: 0;
+			color: $white;
+			opacity: 0.95;
+			padding-left: 1em;
+		}
+
 } // 650
 
 @media screen and (min-width: 1800px){

@@ -23,10 +23,24 @@
 					<?php if (have_posts()) : while (have_posts()) : the_post();
 
 							the_content();
+							the_author();
 
 						endwhile;
 						endif;
 					?>
+
+					<div class="col-content-one-ad">
+
+						<span class="secondary">This is a thing by Machine Gun Studios.</span><br />
+
+						<p>
+							MGS is a full-service studio in Jamaica Plain, Massachusetts. Check out more of my stuff, take a look at the studio, and get in touch to work with me in-house.
+						</p>
+
+						<a href="blog">See More Posts</a><br />
+						<a href="<?php echo home_url(); ?>">Check Out MGS</a>
+
+					</div><!-- col content one ad -->
 
 				</div><!-- two -->
 

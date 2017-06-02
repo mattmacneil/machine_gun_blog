@@ -85,13 +85,20 @@
 	   							$herotext = "Posted: " . get_the_time('l F jS Y');
 	   						}
 
-
 							if( ! empty( $herotext ) ) {
 								echo '<p>' . $herotext . '</p>';
 							}
 								else {
 									echo 'Machine Gun Studios: The Name Only *Implies* That I&rsquo;m Armed...';
 								}
+
+						if (have_posts() && !is_page()) : while (have_posts()) : the_post();
+
+							echo "Written by: ";
+							the_author();
+
+						endwhile;
+						endif;
 						?>
 
 					</div><!-- col content two -->

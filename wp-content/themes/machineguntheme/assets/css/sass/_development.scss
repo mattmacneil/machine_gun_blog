@@ -208,6 +208,43 @@
 				}
 			}
 
+				.col-content-one-ad {
+					width: 100%;
+					background-color: $white;
+					margin-top: 2em;
+					padding: 2em;
+					//@include divshadow;
+					@include rounded(.25em);
+
+					.secondary {
+						display: inline-block;
+						margin-bottom: .75em;
+					}
+
+					a {
+						width: 100%;
+						text-align: center;
+						padding: .25em;
+						display: inline-block;
+						@include divshadow;
+						border: 1px solid $orange;
+						text-decoration: none;
+						font-weight: bold;
+						text-transform: lowercase;
+					}
+
+					a:first-of-type {
+						margin-top: 1em;
+						color: $orange;
+					}
+
+					a:last-of-type {
+						margin-top: .5em;
+						background-color: $orange;
+						color: $white;
+					}
+				}
+
 				.col-content-burst-snipe {
 					position: absolute;
 					left: -8em;
@@ -319,6 +356,10 @@
 
 				.col-post-content {
 					flex: 1;
+
+					img {
+						display: none;
+					}
 
 					a:first-of-type {
 						font-weight: bold;

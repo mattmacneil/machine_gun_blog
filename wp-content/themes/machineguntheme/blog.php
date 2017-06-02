@@ -16,7 +16,7 @@
   $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
   $query_args = array(
     'post_type' => 'post',
-    'posts_per_page' => 2,
+    'posts_per_page' => 3,
     'paged' => $paged
   );
   $the_query = new WP_Query( $query_args );
@@ -32,7 +32,19 @@
 
 						<div class="blog-card-image-container">
 
-							<div class="blog-card-image" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
+
+
+							<div class="blog-card-image" style="background-image: url('<?php 
+
+								if ( has_post_thumbnail() ) {
+									the_post_thumbnail_url(); }
+										else {
+											echo bloginfo('template_directory');
+											echo '/assets/images/blog-card-image-default.jpg';
+										}
+
+
+									?>');">
 
 								<div class="blog-card-image-overlay">
 								</div><!-- blog card image overlay -->

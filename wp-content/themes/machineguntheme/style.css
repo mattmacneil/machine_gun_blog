@@ -1189,7 +1189,7 @@ nav {
 
 .blog-card-container {
   width: 100%;
-  padding: 6em 16% 4em 16%; }
+  padding: 7em 16% 4em 16%; }
 
 .blog-card {
   width: 100%;
@@ -1257,7 +1257,8 @@ nav {
   font-size: 2em;
   font-family: "headlinefont", Gadget, sans-serif;
   text-transform: uppercase;
-  color: #2d6ea0; }
+  color: #2d6ea0;
+  opacity: .5; }
 
 .blog-card-right {
   flex: 1;
@@ -1446,6 +1447,10 @@ nav {
     width: 62.25%; }
 
   .studio-padding {
+    padding-left: 5%;
+    padding-right: 5%; }
+
+  .blog-card-container {
     padding-left: 5%;
     padding-right: 5%; } }
 @media screen and (max-width: 775px) {

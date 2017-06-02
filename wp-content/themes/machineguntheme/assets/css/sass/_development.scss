@@ -530,7 +530,7 @@
 
 .blog-card-container {
 	width: 100%;
-	padding: 6em 16% 4em 16%;
+	padding: 7em 16% 4em 16%;
 }
 
 	.blog-card {
@@ -600,6 +600,7 @@
 					font-family: $headline-font;
 					text-transform: uppercase;
 					color: $blue;
+					opacity: .5;
 				}
 
 		.blog-card-right {

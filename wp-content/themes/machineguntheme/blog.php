@@ -41,7 +41,6 @@
 											echo '/assets/images/blog-card-image-default.jpg';
 										}
 
-
 									?>');">
 
 								<div class="blog-card-image-overlay">

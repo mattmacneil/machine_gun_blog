@@ -1,4 +1,4 @@
-					<span class="header">The Lastest:</span>
+					<span class="header">The Latest:</span>
 
 					<!-- start right column post list -->
 					<?php query_posts('showposts=2'); if (have_posts()) : while (have_posts()) : the_post(); ?>

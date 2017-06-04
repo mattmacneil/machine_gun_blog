@@ -11,7 +11,7 @@
 
 ?>
 
-<div class="hero" style="background-image: url('<?php 
+<div class="hero hero-<?php echo basename(get_permalink()); ?>" style="background-image: url('<?php 
 
 	if ( has_post_thumbnail() ) {
 		the_post_thumbnail_url(); }

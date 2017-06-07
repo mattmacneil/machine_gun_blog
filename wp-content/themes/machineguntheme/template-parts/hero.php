@@ -27,7 +27,7 @@
 		$page_name_slug = basename(get_permalink());
 		$hero_trans_class = NULL;
 
-		if ($page_name_slug == "mgwp" || $page_name_slug == "studio" || $page_name_slug == "contact") {
+		if (is_front_page() || $page_name_slug == "studio" || $page_name_slug == "contact") {
 				$hero_trans_class = "hero-transparent";
 		}
 			else $hero_trans_class = NULL;

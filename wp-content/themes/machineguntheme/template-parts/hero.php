@@ -31,7 +31,13 @@
 				$hero_trans_class = "hero-transparent";
 		}
 			else $hero_trans_class = NULL;
+
+		if (is_front_page()) {
+			get_template_part( 'template-parts/hero-video' );
+		}
 	?>
+
+
 
 	<div class="hero-overlay <?php echo $hero_trans_class; ?>" style="<?php echo $studio_trans; ?>">
 
@@ -139,6 +145,5 @@
 		</div><!-- hero underbar -->
 
 	</div><!-- hero overlay -->
-
 
 </div><!-- hero -->

@@ -69,13 +69,13 @@
 		}
 	}
 
-	  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
-	    .hero-video {
-	    	video {
-	      	display: none;
-				}
-	    } 
-	  }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+    .hero-video {
+    	video {
+      	display: none;
+			}
+    } 
+  }
 
 	.hero-overlay {
 		width: 100%;
@@ -648,6 +648,7 @@
 					flex: 1;
 					position: relative;
 					box-shadow: 10px 10px 50px 0px rgba($black,0.75);
+					min-height: 200px;
 					@include rounded(.25em);
 				}
 
